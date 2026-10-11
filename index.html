@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GrayDR manual</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <meta name="description" content="The GrayDR user manual: the window, typed commands, every script, the Configuration Studio, the Data Editor and the Account Board.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4.13.1/lib/themes/vue.css">
+  <style>
+    /* High contrast (Josh 2026-10-10): black on white for reading, a dark
+       sidebar with white text, one strong link colour, nothing pale. */
+    :root {
+      --theme-color: #0b5bd3;
+      --base-font-size: 17px;
+    }
+    body { color: #000; background: #fff; font-size: 17px; line-height: 1.55; }
+    .markdown-section { max-width: 1000px; color: #000; }
+    .markdown-section h1, .markdown-section h2, .markdown-section h3 { color: #000; font-weight: 700; }
+    .markdown-section h1 { font-size: 2em; border-bottom: 3px solid #000; padding-bottom: .2em; }
+    .markdown-section h2 { font-size: 1.45em; border-bottom: 1px solid #000; padding-bottom: .15em; margin-top: 2em; }
+    .markdown-section a { color: #0b5bd3; text-decoration: underline; font-weight: 600; }
+    .markdown-section a:hover { color: #000; background: #ffe600; }
+    .markdown-section code { color: #000; background: #eef0f3; border: 1px solid #c8ccd2; font-size: .95em; }
+    .markdown-section pre { background: #111; border: 1px solid #000; }
+    .markdown-section pre > code { color: #fff; background: #111; border: 0; font-size: 1em; }
+    .markdown-section table { display: table; width: 100%; border-collapse: collapse; }
+    .markdown-section th { background: #111; color: #fff; border: 1px solid #000; padding: 8px 10px; text-align: left; }
+    .markdown-section td { border: 1px solid #000; padding: 8px 10px; vertical-align: top; color: #000; }
+    .markdown-section tr:nth-child(2n) { background: #f2f4f7; }
+    .markdown-section td strong { color: #000; }
+    .markdown-section blockquote { border-left: 5px solid #000; color: #000; background: #f2f4f7; }
+    .markdown-section em { color: #000; }
+
+    .sidebar { background: #111; color: #fff; border-right: 3px solid #000; width: 320px; }
+    .sidebar .app-name-link, .sidebar .app-name { color: #fff; font-weight: 800; }
+    .sidebar ul li a { color: #fff; font-size: 15px; font-weight: 500; }
+    .sidebar ul li a:hover { color: #ffe600; text-decoration: underline; }
+    .sidebar ul li.active > a { color: #ffe600; font-weight: 800; border-right: 5px solid #ffe600; }
+    .sidebar ul li strong { color: #fff; }
+    .sidebar > h1 { margin: 10px 0 0; }
+    .sidebar ul li ul { padding-left: 0; }
+    .sidebar li { margin: 4px 0; }
+    .sidebar .search { border-bottom: 2px solid #444; }
+    .sidebar .search input { color: #000; background: #fff; font-size: 16px; padding: 6px 8px; border: 2px solid #fff; }
+    .sidebar .search .clear-button svg { stroke: #fff; }
+    .sidebar .search .results-panel { color: #fff; }
+    .sidebar .search .matching-post { border-bottom: 1px solid #444; }
+    .sidebar .search .matching-post a { color: #fff; }
+    .sidebar .search .matching-post h2 { color: #ffe600; font-size: 15px; }
+    .sidebar .search .matching-post p { color: #ddd; font-size: 13px; }
+    .sidebar .search .search-keyword { color: #000; background: #ffe600; font-style: normal; font-weight: 700; }
+    .sidebar-toggle { background: #111; }
+    .sidebar-toggle span { background: #fff; }
+    .content { padding-top: 0; }
+    @media (min-width: 769px) { .content { left: 320px; } .sidebar-toggle { left: 0; } body.close .content { left: 0; } }
+  </style>
+</head>
+<body>
+  <div id="app">Loading the manual...</div>
+  <script>
+    window.$docsify = {
+      name: 'GrayDR manual',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      relativePath: true,
+      auto2top: true,
+      maxLevel: 3,
+      search: {
+        paths: 'auto',
+        depth: 3,
+        placeholder: 'Search the manual',
+        noData: 'Nothing found',
+        hideOtherSidebarContent: true
+      },
+      alias: { '/.*/_sidebar.md': '/_sidebar.md' }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4.13.1/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4.13.1/lib/plugins/search.min.js"></script>
+</body>
+</html>
