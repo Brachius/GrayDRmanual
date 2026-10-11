@@ -4,7 +4,7 @@ Configuration Studio page **Events**. Open it from the left-hand list; type part
 
 Hollow Eve: the Zasele tasks and deed sorting.
 
-Scripts that read these settings: [Zasele Tasks (Hollow Eve)](../scripts/zasele.md).
+Scripts that read these settings: [Zasele Tasks (Hollow Eve)](/scripts/zasele.md).
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

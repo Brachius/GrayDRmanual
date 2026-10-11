@@ -4,7 +4,7 @@ Configuration Studio page **Trading Training**. Open it from the left-hand list;
 
 The Trader's profit pouches, Mags's task loop, and the Trader kiosk.
 
-Scripts that read these settings: [Trading Training](../scripts/trading-train.md).
+Scripts that read these settings: [Trading Training](/scripts/trading-train.md).
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

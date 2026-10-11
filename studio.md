@@ -1,6 +1,6 @@
 # Configuration Studio
 
-Every setting GrayDR and its scripts use lives here. Open it from the Settings menu of a game window, or with **Launch Configuration Studio** when no window is open. [One page per settings page](studio/README.md) lists every field.
+Every setting GrayDR and its scripts use lives here. Open it from the Settings menu of a game window, or with **Launch Configuration Studio** when no window is open. [One page per settings page](/studio/README.md) lists every field.
 
 ## How it is laid out
 
@@ -71,4 +71,4 @@ A card whose main activity is **Hunt** has more:
 
 At the top: **Loop entire training routine** starts again at the first card after the last one finishes, and **Resume saved position after restart** continues from the saved card after Master Train or GrayDR is restarted.
 
-Type `.master-train list` in a game window to see the cards with their numbers. [Typed commands](commands.md#master-train) has every Master Train command.
+Type `.master-train list` in a game window to see the cards with their numbers. [Typed commands](/commands.md#master-train) has every Master Train command.

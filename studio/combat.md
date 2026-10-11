@@ -4,7 +4,7 @@ Configuration Studio page **Combat**. Open it from the left-hand list; type part
 
 Every Combat Trainer and Hunt setting: weapons and the skills they train, armor rotation, combat spells, abilities, retreat and stop rules, hunting zones and buddies, loot. Named hunts override any of these for one hunt.
 
-Scripts that read these settings: [Combat Trainer](../scripts/combat-trainer.md).
+Scripts that read these settings: [Combat Trainer](/scripts/combat-trainer.md).
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

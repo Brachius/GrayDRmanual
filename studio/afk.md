@@ -4,7 +4,7 @@ Configuration Studio page **AFK Monitor**. Open it from the left-hand list; type
 
 What the AFK Monitor does when the character is left alone: the vitality line that logs out, departing after death, and how many justice complaints are allowed. The monitor never sends beside another script; when it must act it stops the others first.
 
-Scripts that read these settings: [AFK Monitor](../scripts/afk.md).
+Scripts that read these settings: [AFK Monitor](/scripts/afk.md).
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

@@ -16,7 +16,7 @@ In Master Train, pick **Athletics** as the activity and put the same words in it
 
 ## Settings
 
-On the Configuration Studio page [Athletics](../studio/athletics.md):
+On the Configuration Studio page [Athletics](/studio/athletics.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

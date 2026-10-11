@@ -12,7 +12,7 @@ In Master Train, pick **AFK Monitor** as the activity and put the same words in 
 
 ## Settings
 
-On the Configuration Studio page [AFK Monitor](../studio/afk.md):
+On the Configuration Studio page [AFK Monitor](/studio/afk.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

@@ -4,7 +4,7 @@ Configuration Studio page **Scholarship Training**. Open it from the left-hand l
 
 The almanac and the books used for Scholarship.
 
-Scripts that read these settings: [Combat Trainer](../scripts/combat-trainer.md), [Scholarship Training](../scripts/scholarship-train.md).
+Scripts that read these settings: [Combat Trainer](/scripts/combat-trainer.md), [Scholarship Training](/scripts/scholarship-train.md).
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

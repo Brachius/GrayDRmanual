@@ -12,7 +12,7 @@ In Master Train, pick **Sell Loot** as the activity and put the same words in it
 
 ## Settings
 
-On the Configuration Studio page [Loot](../studio/loot.md):
+On the Configuration Studio page [Loot](/studio/loot.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

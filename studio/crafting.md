@@ -4,7 +4,7 @@ Configuration Studio page **Crafting**. Open it from the left-hand list; type pa
 
 Settings every crafting script shares (the crafting bag, the town, stamping, the magic floor), then the belts, outfitting, forging, shaping, engineering and work order settings.
 
-Scripts that read these settings: [Ingredient Gathering](../scripts/alchemy.md), [Craft Training](../scripts/craft.md), [Enchanting](../scripts/enchant.md), [Forging](../scripts/forge.md), [Remedies](../scripts/remedy.md), [Shaping](../scripts/shape.md), [Work Orders](../scripts/workorders.md).
+Scripts that read these settings: [Ingredient Gathering](/scripts/alchemy.md), [Craft Training](/scripts/craft.md), [Enchanting](/scripts/enchant.md), [Forging](/scripts/forge.md), [Remedies](/scripts/remedy.md), [Shaping](/scripts/shape.md), [Work Orders](/scripts/workorders.md).
 
 ## Shared Crafting Settings
 

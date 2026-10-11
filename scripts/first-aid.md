@@ -16,7 +16,7 @@ In Master Train, pick **First Aid** as the activity and put the same words in it
 
 ## Settings
 
-On the Configuration Studio page [Healing](../studio/healing.md):
+On the Configuration Studio page [Healing](/studio/healing.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

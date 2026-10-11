@@ -12,7 +12,7 @@ In Master Train, pick **Barbarian Magic** as the activity and put the same words
 
 ## Settings
 
-On the Configuration Studio page [Buffs](../studio/buffs.md):
+On the Configuration Studio page [Buffs](/studio/buffs.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

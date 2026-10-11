@@ -12,7 +12,7 @@ In Master Train, pick **Tarantula** as the activity and put the same words in it
 
 ## Settings
 
-On the Configuration Studio page [Tarantula](../studio/tarantula.md):
+On the Configuration Studio page [Tarantula](/studio/tarantula.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

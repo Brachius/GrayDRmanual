@@ -2,7 +2,7 @@
 
 Script name: `combat-trainer`
 
-The combat engine on its own, in the room you are standing in: it fights what is here with the weapons, armor, spells and abilities from the [Combat page](../studio/combat.md), without walking anywhere. Hunt is the same engine with the walking and the zone added. Words: `debug`, `construct`, `undead`, `innocence`, `d20` (a dance threshold), `r20` (a retreat threshold).
+The combat engine on its own, in the room you are standing in: it fights what is here with the weapons, armor, spells and abilities from the [Combat page](/studio/combat.md), without walking anywhere. Hunt is the same engine with the walking and the zone added. Words: `debug`, `construct`, `undead`, `innocence`, `d20` (a dance threshold), `r20` (a retreat threshold).
 
 ## How to start it
 
@@ -12,7 +12,7 @@ In Master Train, pick **Combat Trainer** as the activity and put the same words 
 
 ## Settings
 
-On the Configuration Studio page [Combat](../studio/combat.md):
+On the Configuration Studio page [Combat](/studio/combat.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|
@@ -205,7 +205,7 @@ On the Configuration Studio page [Combat](../studio/combat.md):
 | **Whirlwind trainables** | list of weapon skills to use with whirlwind. See Chuno-setup A list of weapon skill names. | (not set) | Global, or each character |
 | **Zombie** _(Necromancer only)_ | zombie settings. Making a zombie in combat requires a waggle set called 'zombie' with CFB in it. A table of name and value pairs. | (not set) | Global, or each character |
 
-On the Configuration Studio page [Buffs](../studio/buffs.md):
+On the Configuration Studio page [Buffs](/studio/buffs.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|
@@ -216,14 +216,14 @@ On the Configuration Studio page [Buffs](../studio/buffs.md):
 | **Skip harnessing for Osrel Meraud** _(Cleric only)_ | Choose Yes to infuse Osrel Meraud without first harnessing mana. Choose No to harness the configured infusion amount. Yes or No. | (not set) | Global, or each character |
 | **Osrel Meraud favor deity** _(Cleric only)_ | Exact deity or aspect whose favor orb is consumed to create Osrel Meraud. This is separate from the general favor deity; Master Train obtains a new orb for this deity when needed. | (not set) | Global, or each character |
 
-On the Configuration Studio page [Loot](../studio/loot.md):
+On the Configuration Studio page [Loot](/studio/loot.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|
 | **Autoloot** | Turn on if this character wears an autolooter (a lootbag, lootbelt or similar item that grabs loot the moment a corpse is searched). When on, the script trusts the Autoloot items list below and never sends a stow for anything the autolooter takes. When off, every lootable item named in the game's "was carrying" line is stowed by hand right after the search. Nothing on the ground is ever scanned for either way. Yes or No. | No | Global, or each character |
 | **Autoloot items** | The categories your autolooter is set to take (AUTOLOOT in game shows them). Pick from the fixed list; ALL means every category is on. Anything named in a corpse's "was carrying" line whose category is listed here is treated as already in your bag. A category NOT listed is treated as left on the ground, so a lootable item of that kind gets one stow. The script can tell gems, boxes, scrolls, metals (nuggets and bars) and coins apart by name; herbs, weapons, ammunition and armor cannot be told apart from other treasure, so they follow the ITEMS setting. A list. | (not set) | Global, or each character |
 
-On the Configuration Studio page [Gem Pouches](../studio/gem-pouches.md):
+On the Configuration Studio page [Gem Pouches](/studio/gem-pouches.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|
@@ -234,13 +234,13 @@ On the Configuration Studio page [Gem Pouches](../studio/gem-pouches.md):
 | **Spare gem pouch container** | Container for spare gem pouches. | (not set) | Global, or each character |
 | **Tie gem pouches** | Controls tie gem pouches behavior in Combat Trainer. Yes or No. | (not set) | Global, or each character |
 
-On the Configuration Studio page [Skinning](../studio/skinning.md):
+On the Configuration Studio page [Skinning](/studio/skinning.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|
 | **Skinning** | Hash of skinning related settings. A table of name and value pairs. | (not set) | Global, or each character |
 
-On the Configuration Studio page [Scholarship Training](../studio/scholarship.md):
+On the Configuration Studio page [Scholarship Training](/studio/scholarship.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

@@ -20,7 +20,7 @@ In Master Train, pick **Alchemy Ingredients** as the activity and put the same w
 
 ## Settings
 
-On the Configuration Studio page [Crafting](../studio/crafting.md):
+On the Configuration Studio page [Crafting](/studio/crafting.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

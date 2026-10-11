@@ -12,7 +12,7 @@ In Master Train, pick **Trading Training** as the activity and put the same word
 
 ## Settings
 
-On the Configuration Studio page [Trading Training](../studio/trading-train.md):
+On the Configuration Studio page [Trading Training](/studio/trading-train.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

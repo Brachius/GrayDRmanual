@@ -22,7 +22,7 @@ In Master Train, pick **Work Orders** as the activity and put the same words in 
 
 ## Settings
 
-On the Configuration Studio page [Crafting](../studio/crafting.md):
+On the Configuration Studio page [Crafting](/studio/crafting.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

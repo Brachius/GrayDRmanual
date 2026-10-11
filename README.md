@@ -6,13 +6,13 @@ This manual is rebuilt every time a new GrayDR package is made, so the settings 
 
 ## Chapters
 
-1. [Getting started](getting-started.md): the package folder, logging in, profiles.
-2. [The GrayDR window](client.md): menus, the side windows, highlights, text alterations, appearance.
-3. [Typed commands](commands.md): starting and stopping scripts, go2, and every dot command GrayDR understands.
-4. [Scripts](scripts/README.md): one page per script, with what it does, what to type, and its settings.
-5. [Configuration Studio](studio.md): how the Studio works, the Gear page, the Master Train page, and [one page per settings page](studio/README.md).
-6. [Data Editor](data-editor.md): spells, hunting zones, command answers, crafting tools, and the Map tab for fixing travel.
-7. [Account Board](account-board.md): one window that watches every logged-in character.
+1. [Getting started](/getting-started.md): the package folder, logging in, profiles.
+2. [The GrayDR window](/client.md): menus, the side windows, highlights, text alterations, appearance.
+3. [Typed commands](/commands.md): starting and stopping scripts, go2, and every dot command GrayDR understands.
+4. [Scripts](/scripts/README.md): one page per script, with what it does, what to type, and its settings.
+5. [Configuration Studio](/studio.md): how the Studio works, the Gear page, the Master Train page, and [one page per settings page](/studio/README.md).
+6. [Data Editor](/data-editor.md): spells, hunting zones, command answers, crafting tools, and the Map tab for fixing travel.
+7. [Account Board](/account-board.md): one window that watches every logged-in character.
 
 ## Reading the settings tables
 

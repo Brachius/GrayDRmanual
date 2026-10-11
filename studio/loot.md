@@ -4,7 +4,7 @@ Configuration Studio page **Loot**. Open it from the left-hand list; type part o
 
 Selling: the town, the bank and currency exchange, metals and stones, trap components, the bank bot, and how much platinum to keep.
 
-Scripts that read these settings: [Combat Trainer](../scripts/combat-trainer.md), [Sell Loot](../scripts/sell-loot.md).
+Scripts that read these settings: [Combat Trainer](/scripts/combat-trainer.md), [Sell Loot](/scripts/sell-loot.md).
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

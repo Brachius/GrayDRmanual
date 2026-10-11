@@ -12,7 +12,7 @@ In Master Train, pick **Pick** as the activity and put the same words in its Arg
 
 ## Settings
 
-On the Configuration Studio page [Locksmithing](../studio/locksmithing.md):
+On the Configuration Studio page [Locksmithing](/studio/locksmithing.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

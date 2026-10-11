@@ -4,7 +4,7 @@ Configuration Studio page **Memory Orbs**. Open it from the left-hand list; type
 
 Where the memory orbs are kept and what to do with them.
 
-Scripts that read these settings: [Memory Orbs](../scripts/memory-orbs.md).
+Scripts that read these settings: [Memory Orbs](/scripts/memory-orbs.md).
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

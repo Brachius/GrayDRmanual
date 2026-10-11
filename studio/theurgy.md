@@ -4,7 +4,7 @@ Configuration Studio page **Theurgy**. Open it from the left-hand list; type par
 
 Rituals, communes, the prayer mat, the immortal aspect, tithing, supplies, and bead carving.
 
-Scripts that read these settings: [Theurgy](../scripts/theurgy.md).
+Scripts that read these settings: [Theurgy](/scripts/theurgy.md).
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

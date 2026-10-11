@@ -4,7 +4,7 @@ Configuration Studio page **Profit Tracker**. Open it from the left-hand list; t
 
 Whether income is recorded, and which gem pouch belongs to whom.
 
-Scripts that read these settings: [Profit Tracker](../scripts/profit-tracker.md).
+Scripts that read these settings: [Profit Tracker](/scripts/profit-tracker.md).
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

@@ -4,7 +4,7 @@ Configuration Studio page **Athletics**. Open it from the left-hand list; type p
 
 Which route Athletics trains on and what to hold while climbing.
 
-Scripts that read these settings: [Athletics](../scripts/athletics.md).
+Scripts that read these settings: [Athletics](/scripts/athletics.md).
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

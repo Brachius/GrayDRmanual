@@ -20,7 +20,7 @@ In Master Train, pick **Astrology training** as the activity and put the same wo
 
 ## Settings
 
-On the Configuration Studio page [Magic](../studio/magic.md):
+On the Configuration Studio page [Magic](/studio/magic.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

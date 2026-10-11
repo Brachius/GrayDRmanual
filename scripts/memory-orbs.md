@@ -12,7 +12,7 @@ In Master Train, pick **Memory Orbs** as the activity and put the same words in 
 
 ## Settings
 
-On the Configuration Studio page [Memory Orbs](../studio/memory-orbs.md):
+On the Configuration Studio page [Memory Orbs](/studio/memory-orbs.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

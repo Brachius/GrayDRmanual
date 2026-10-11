@@ -4,7 +4,7 @@ Configuration Studio page **Skinning**. Open it from the left-hand list; type pa
 
 Selling the skin bundle.
 
-Scripts that read these settings: [Combat Trainer](../scripts/combat-trainer.md).
+Scripts that read these settings: [Combat Trainer](/scripts/combat-trainer.md).
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

@@ -4,7 +4,7 @@ Configuration Studio page **Locksmithing**. Open it from the left-hand list; typ
 
 Picking boxes: the picking room, box sources, the lockpick holder, difficulty thresholds, what to do with boxes that are too hard, and the gem pouches for box loot.
 
-Scripts that read these settings: [Locksmithing](../scripts/locksmithing.md), [Lockbox Picking](../scripts/pick.md).
+Scripts that read these settings: [Locksmithing](/scripts/locksmithing.md), [Lockbox Picking](/scripts/pick.md).
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

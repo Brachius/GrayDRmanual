@@ -12,7 +12,7 @@ In Master Train, pick **Inventory Spreadsheet** as the activity and put the same
 
 ## Settings
 
-On the Configuration Studio page [Inventory](../studio/inventory.md):
+On the Configuration Studio page [Inventory](/studio/inventory.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

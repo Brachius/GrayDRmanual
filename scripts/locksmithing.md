@@ -20,7 +20,7 @@ In Master Train, pick **Locksmithing** as the activity and put the same words in
 
 ## Settings
 
-On the Configuration Studio page [Locksmithing](../studio/locksmithing.md):
+On the Configuration Studio page [Locksmithing](/studio/locksmithing.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

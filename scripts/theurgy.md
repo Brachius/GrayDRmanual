@@ -12,7 +12,7 @@ In Master Train, pick **Theurgy** as the activity and put the same words in its 
 
 ## Settings
 
-On the Configuration Studio page [Theurgy](../studio/theurgy.md):
+On the Configuration Studio page [Theurgy](/studio/theurgy.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

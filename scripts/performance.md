@@ -22,7 +22,7 @@ In Master Train, pick **Performance** as the activity and put the same words in 
 
 ## Settings
 
-On the Configuration Studio page [Performance](../studio/performance.md):
+On the Configuration Studio page [Performance](/studio/performance.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

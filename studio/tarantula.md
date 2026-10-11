@@ -4,7 +4,7 @@ Configuration Studio page **Tarantula**. Open it from the left-hand list; type p
 
 The biomechanical tarantula or harvester spider that eats field experience during a hunt: which skills it may take, which activities block it.
 
-Scripts that read these settings: [Tarantula](../scripts/tarantula.md).
+Scripts that read these settings: [Tarantula](/scripts/tarantula.md).
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

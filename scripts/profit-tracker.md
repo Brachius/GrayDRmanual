@@ -12,7 +12,7 @@ In Master Train, pick **Profit Tracker** as the activity and put the same words 
 
 ## Settings
 
-On the Configuration Studio page [Profit Tracker](../studio/profit-tracker.md):
+On the Configuration Studio page [Profit Tracker](/studio/profit-tracker.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

@@ -4,7 +4,7 @@ Configuration Studio page **Buffs**. Open it from the left-hand list; type part 
 
 The Barbarian abilities activated for training, and the Buffs pre-hunt choices.
 
-Scripts that read these settings: [Barbarian Magic](../scripts/barb-magic.md), [Combat Trainer](../scripts/combat-trainer.md).
+Scripts that read these settings: [Barbarian Magic](/scripts/barb-magic.md), [Combat Trainer](/scripts/combat-trainer.md).
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

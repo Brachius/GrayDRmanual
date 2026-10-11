@@ -14,7 +14,7 @@ In Master Train, pick **Scroll Manage** as the activity and put the same words i
 
 ## Settings
 
-On the Configuration Studio page [Magic](../studio/magic.md):
+On the Configuration Studio page [Magic](/studio/magic.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

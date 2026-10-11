@@ -4,7 +4,7 @@ Configuration Studio page **Inventory**. Open it from the left-hand list; type p
 
 The inventory spreadsheet export.
 
-Scripts that read these settings: [Inventory Spreadsheet](../scripts/inventory-spreadsheet.md).
+Scripts that read these settings: [Inventory Spreadsheet](/scripts/inventory-spreadsheet.md).
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

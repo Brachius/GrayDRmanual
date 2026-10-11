@@ -4,7 +4,7 @@ Configuration Studio page **Performance**. Open it from the left-hand list; type
 
 The instrument, its cleaning cloth, and the mind state goal.
 
-Scripts that read these settings: [Performance](../scripts/performance.md).
+Scripts that read these settings: [Performance](/scripts/performance.md).
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

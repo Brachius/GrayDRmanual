@@ -12,7 +12,7 @@ In Master Train, pick **Scholarship Training** as the activity and put the same 
 
 ## Settings
 
-On the Configuration Studio page [Scholarship Training](../studio/scholarship.md):
+On the Configuration Studio page [Scholarship Training](/studio/scholarship.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

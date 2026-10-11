@@ -12,7 +12,7 @@ In Master Train, pick **Healme** as the activity and put the same words in its A
 
 ## Settings
 
-On the Configuration Studio page [Healing](../studio/healing.md):
+On the Configuration Studio page [Healing](/studio/healing.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

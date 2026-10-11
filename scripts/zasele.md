@@ -14,7 +14,7 @@ In Master Train, pick **Zasele Tasks** as the activity and put the same words in
 
 ## Settings
 
-On the Configuration Studio page [Events](../studio/events.md):
+On the Configuration Studio page [Events](/studio/events.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

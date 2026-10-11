@@ -4,7 +4,7 @@ Configuration Studio page **Magic**. Open it from the left-hand list; type part 
 
 Everything spellcasting scripts share: cambrinth, harnessing, the ritual focus, the training spell for each magic skill, the buff list, and the Astrology trainer's settings.
 
-Scripts that read these settings: [Astrology Training](../scripts/astrology.md), [Scroll Manage](../scripts/scroll-manage.md), [Summoning Training](../scripts/summoning.md), [Walking Astrology](../scripts/walkingastro.md).
+Scripts that read these settings: [Astrology Training](/scripts/astrology.md), [Scroll Manage](/scripts/scroll-manage.md), [Summoning Training](/scripts/summoning.md), [Walking Astrology](/scripts/walkingastro.md).
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

@@ -4,7 +4,7 @@ Configuration Studio page **Healing**. Open it from the left-hand list; type par
 
 Healing routes and the Empath's plant, First Aid charts, Healme, Medic Check, Rezz and the safe room.
 
-Scripts that read these settings: [First Aid](../scripts/first-aid.md), [Healme](../scripts/healme.md), [Medic Check](../scripts/medic-check.md), [Rezz](../scripts/rezz.md), [Safe Room Healing](../scripts/safe-room.md).
+Scripts that read these settings: [First Aid](/scripts/first-aid.md), [Healme](/scripts/healme.md), [Medic Check](/scripts/medic-check.md), [Rezz](/scripts/rezz.md), [Safe Room Healing](/scripts/safe-room.md).
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

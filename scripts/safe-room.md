@@ -20,7 +20,7 @@ In Master Train, pick **Safe Room Healing** as the activity and put the same wor
 
 ## Settings
 
-On the Configuration Studio page [Healing](../studio/healing.md):
+On the Configuration Studio page [Healing](/studio/healing.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|

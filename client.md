@@ -22,7 +22,7 @@ One window per character. The big pane is the story window: every line from the 
 | Highlight Text | Colour, sound and timer rules for lines you want to notice. Tabs: General, Text, Timer, Alert. A highlight can match the whole row, the start of a line, a regular expression, part of a word, and can ignore case. Alert plays a sound. Timer starts a countdown when the line appears. The Alert tab also has sounds for health below a level, death, stun, bleeding and webbed. |
 | Window Appearance | Fonts and colours for the main window, the dock windows and the command line. |
 | Alter Text | Three lists: Substitute replaces text as it arrives, Link turns text into something you can click, Ignore hides lines. Each entry can be switched on and off. |
-| Configuration Studio | Every GrayDR and script setting. See [Configuration Studio](studio.md). |
+| Configuration Studio | Every GrayDR and script setting. See [Configuration Studio](/studio.md). |
 
 **Window**
 
@@ -30,7 +30,7 @@ One window per character. The big pane is the story window: every line from the 
 |---|---|
 | Save Layout | Saves where the side windows are. |
 | Lock Windows | Stops the side windows from being dragged. |
-| Sessions Launcher... | The saved logins. See [Getting started](getting-started.md). |
+| Sessions Launcher... | The saved logins. See [Getting started](/getting-started.md). |
 | Main-Thread Profiler Log | A timing log for diagnosing a slow interface. Leave it off unless asked. |
 
 **Profile**: Create Profile and Load Profile. **Help**: User Guide (this manual) and About.

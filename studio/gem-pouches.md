@@ -4,7 +4,7 @@ Configuration Studio page **Gem Pouches**. Open it from the left-hand list; type
 
 The appraisal pouches, the hunting pouch, and spare pouches.
 
-Scripts that read these settings: [Combat Trainer](../scripts/combat-trainer.md).
+Scripts that read these settings: [Combat Trainer](/scripts/combat-trainer.md).
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|
