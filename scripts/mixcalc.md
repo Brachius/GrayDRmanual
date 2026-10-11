@@ -13,15 +13,7 @@ The second number is 67/33 you already have; it counts straight toward the total
 
 ## How to start it
 
-Type `.mixcalc` followed by the words it takes.
-
-First number is the volume you need. Second number, optional, is the volume of 67/33 you already have.
-
-Example:
-
-```
-.mixcalc 20
-```
+Type `.mixcalc` with the words shown above.
 
 In Master Train, pick **Mix calculator** as the activity and put the same words in its Arguments box.
 

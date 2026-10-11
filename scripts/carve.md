@@ -14,15 +14,7 @@ Chapter, recipe in quotes, the material (alabaster, granite, marble; deer or wol
 
 ## How to start it
 
-Type `.carve` followed by the words it takes.
-
-chapter recipe material type noun, or resume type noun
-
-Example:
-
-```
-.carve 5 "stone bowl" alabaster deed bowl
-```
+Type `.carve` with the words shown above.
 
 In Master Train, pick **Carving** as the activity and put the same words in its Arguments box.
 

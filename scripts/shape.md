@@ -16,15 +16,7 @@ The finish word comes first (`hold`, `log`, `stow`, `trash`), then the chapter, 
 
 ## How to start it
 
-Type `.shape` followed by the words it takes.
-
-hold|log|stow|trash + chapter/recipe/material/noun [skip], or instructions form, laminate/lighten/cable &lt;noun&gt;, or resume &lt;noun&gt;.
-
-Example:
-
-```
-.shape log 7 "comb" maple comb
-```
+Type `.shape` with the words shown above.
 
 In Master Train, pick **Shaping (Shape)** as the activity and put the same words in its Arguments box.
 

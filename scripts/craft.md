@@ -16,15 +16,7 @@ Outfitting knits up to 550 ranks and sews after; forging runs Smith with bronze;
 
 ## How to start it
 
-Type `.craft` followed by the words it takes.
-
-forging|outfitting|engineering|alchemy|enchanting [debug]
-
-Example:
-
-```
-.craft outfitting
-```
+Type `.craft` with the words shown above.
 
 In Master Train, pick **Craft Training** as the activity and put the same words in its Arguments box.
 

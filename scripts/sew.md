@@ -19,15 +19,7 @@ Pins and the other sewing tools come from your belt and crafting bag (Gear page)
 
 ## How to start it
 
-Type `.sew` followed by the words it takes.
-
-hold|log|stow|trash + type/chapter/recipe/material/noun, or instructions form, seal/reinforce/lighten, or resume &lt;noun&gt;.
-
-Example:
-
-```
-.sew log sewing 2 "heavy gloves" wool gloves
-```
+Type `.sew` with the words shown above.
 
 In Master Train, pick **Tailoring (Sew)** as the activity and put the same words in its Arguments box.
 

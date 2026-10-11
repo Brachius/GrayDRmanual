@@ -13,17 +13,9 @@ The material is silk, cotton, linen, wool or burlap. The second word sets the wh
 
 ## How to start it
 
-Type `.spin` followed by the words it takes.
-
-Choose a material. Add fine, thin, average, thick, heavy, or yarn after it to change the wheel setting; heavy is the default.
+Type `.spin` with the words shown above.
 
 Words it understands: `silk`, `cotton`, `linen`, `wool`, `burlap`.
-
-Example:
-
-```
-.spin burlap heavy
-```
 
 In Master Train, pick **Spin Thread** as the activity and put the same words in its Arguments box.
 

@@ -13,15 +13,7 @@ The number is how many ingots, 1 to 21. The letter is the carbon: `l` low (one c
 
 ## How to start it
 
-Type `.makesteel` followed by the words it takes.
-
-Number of ingots (1-21), then optionally l, m, or h for carbon content (default h), then optionally refine.
-
-Example:
-
-```
-.makesteel 1 h refine
-```
+Type `.makesteel` with the words shown above.
 
 In Master Train, pick **Make Steel** as the activity and put the same words in its Arguments box.
 

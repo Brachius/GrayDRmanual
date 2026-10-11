@@ -13,15 +13,7 @@ In order: the word `remedies`, the chapter, the recipe in quotes, the first herb
 
 ## How to start it
 
-Type `.remedy` followed by the words it takes.
-
-remedies chapter recipe herb1 herb2 catalyst container noun, or continue ...
-
-Example:
-
-```
-.remedy remedies 1 "blister cream" aloe na "coal nugget" mortar cream
-```
+Type `.remedy` with the words shown above.
 
 In Master Train, pick **Remedies** as the activity and put the same words in its Arguments box.
 

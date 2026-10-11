@@ -17,15 +17,7 @@ Chapter, recipe in quotes, material, then the noun. A trailing word that is not 
 
 ## How to start it
 
-Type `.tinker` followed by the words it takes.
-
-chapter recipe material noun; resume/instructions/enhancement/mechanisms forms
-
-Example:
-
-```
-.tinker 7 "wooden bolt" maple bolts
-```
+Type `.tinker` with the words shown above.
 
 In Master Train, pick **Tinkering** as the activity and put the same words in its Arguments box.
 

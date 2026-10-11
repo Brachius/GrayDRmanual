@@ -14,9 +14,7 @@ The book nouns and the chart count are on the Healing page under First Aid. It s
 
 ## How to start it
 
-Type `.first-aid` followed by the words it takes.
-
-Leave blank for First Aid, or choose Scholarship or Both.
+Type `.first-aid` with the words shown above.
 
 Words it understands: `scholarship`, `both`.
 

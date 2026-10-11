@@ -14,15 +14,7 @@ The ingredient can be any part of its name. The number is how many to end up wit
 
 ## How to start it
 
-Type `.alchemy` followed by the words it takes.
-
-ingredient [forage] [prepare] [quantity]
-
-Example:
-
-```
-.alchemy aloe forage prepare 25
-```
+Type `.alchemy` with the words shown above.
 
 In Master Train, pick **Alchemy Ingredients** as the activity and put the same words in its Arguments box.
 

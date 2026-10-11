@@ -21,7 +21,7 @@ Options: `--limit=N`, `--match=TEXT`, `--skip-special`, `--skip-categories`, `--
 
 ## How to start it
 
-Type `.inventory-spreadsheet` in the game window.
+Type `.inventory-spreadsheet` with the words shown above.
 
 In Master Train, pick **Inventory Spreadsheet** as the activity and put the same words in its Arguments box.
 

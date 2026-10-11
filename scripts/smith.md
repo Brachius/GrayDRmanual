@@ -13,7 +13,7 @@ The metal comes first, then the item name in quotes. Add `buy` to buy the ingot 
 
 ## How to start it
 
-Type `.smith` in the game window.
+Type `.smith` with the words shown above.
 
 ## Settings
 

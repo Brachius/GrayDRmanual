@@ -14,15 +14,7 @@ Chapter, recipe in quotes, then the noun of the finished item, with the base ite
 
 ## How to start it
 
-Type `.enchant` followed by the words it takes.
-
-chapter recipe noun [base noun], or resume noun
-
-Example:
-
-```
-.enchant 1 "radiant trinket" totem
-```
+Type `.enchant` with the words shown above.
 
 In Master Train, pick **Enchanting** as the activity and put the same words in its Arguments box.
 

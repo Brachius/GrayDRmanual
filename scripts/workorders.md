@@ -20,17 +20,9 @@ Before the first item it makes sure the money is there (**Platinum kept on hand 
 
 ## How to start it
 
-Type `.workorders` followed by the words it takes.
-
-Discipline plus optional repair, turnin, or continue (resume the order the logbook is already tracking).
+Type `.workorders` with the words shown above.
 
 Words it understands: `blacksmithing`, `armorsmithing`, `weaponsmithing`, `tailoring`, `shaping`, `carving`, `tinkering`, `remedies`, `artificing`, `repair`, `turnin`, `continue`.
-
-Example:
-
-```
-.workorders tailoring
-```
 
 In Master Train, pick **Work Orders** as the activity and put the same words in its Arguments box.
 

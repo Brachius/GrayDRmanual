@@ -21,15 +21,7 @@ What you need: the forging tools on your belt or in the crafting bag, an ingot o
 
 ## How to start it
 
-Type `.forge` followed by the words it takes.
-
-Book type + chapter + recipe + metal + noun, or an enhancement + noun; finish word optional.
-
-Example:
-
-```
-.forge weaponsmithing 1 "a metal throwing dagger" bronze dagger
-```
+Type `.forge` with the words shown above.
 
 In Master Train, pick **Forging** as the activity and put the same words in its Arguments box.
 

@@ -15,9 +15,7 @@ Without `max` the goal is 15 mind states up, capped at 29; `max` goes to 32 of 3
 
 ## How to start it
 
-Type `.athletics` followed by the words it takes.
-
-max trains to 32 of 34 (otherwise 15 points up, capped at 29); stationary trains in place; skip_magic skips the buffs; wyvern, xalas, undergondola or cliffs picks the route instead of the Athletics route setting.
+Type `.athletics` with the words shown above.
 
 Words it understands: `max`, `stationary`, `skip_magic`, `wyvern`, `xalas`, `undergondola`, `cliffs`.
 

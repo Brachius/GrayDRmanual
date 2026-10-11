@@ -12,7 +12,7 @@ Translates between GrayDR room numbers and Lich map numbers, for reading old Lic
 
 ## How to start it
 
-Type `.lichroom` in the game window.
+Type `.lichroom` with the words shown above.
 
 ## Settings
 

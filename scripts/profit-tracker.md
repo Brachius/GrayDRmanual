@@ -15,7 +15,7 @@ The last words can name a creature or a hunting zone. The recording runs in the 
 
 ## How to start it
 
-Type `.profit-tracker` in the game window.
+Type `.profit-tracker` with the words shown above.
 
 In Master Train, pick **Profit Tracker** as the activity and put the same words in its Arguments box.
 
