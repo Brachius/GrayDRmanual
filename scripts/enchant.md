@@ -24,5 +24,5 @@ On the Configuration Studio page [Crafting](/studio/crafting.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|
-| **Enchanting room override** | A number, at least 0. Must be a room on the map. | 0 | Global, or each character |
+| <span id="setting-crafting-enchanting-room"></span>**Enchanting room override** | A number, at least 0. Must be a room on the map. | 0 | Global, or each character |
 

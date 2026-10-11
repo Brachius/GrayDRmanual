@@ -8,7 +8,7 @@ Scripts that read these settings: [Inventory Spreadsheet](/scripts/inventory-spr
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|
-| **Inventory spreadsheet** |  |  | Global, or each character |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **Where to write the CSV and saved scans** | Folder for the CSV and each character's saved scan. Leave blank to use the project data folder. | (blank) | Global, or each character |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **Shard Carousel room** | The room the vault booths open from. Only change this if the Carousel moves. A number, at least 1. | 19282 | Global, or each character |
+| <span id="setting-activities-inventory-spreadsheet"></span>**Inventory spreadsheet** |  |  | Global, or each character |
+| <span id="setting-activities-inventory-spreadsheet-data-directory"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Where to write the CSV and saved scans** | Folder for the CSV and each character's saved scan. Leave blank to use the project data folder. | (blank) | Global, or each character |
+| <span id="setting-activities-inventory-spreadsheet-carousel-room"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Shard Carousel room** | The room the vault booths open from. Only change this if the Carousel moves. A number, at least 1. | 19282 | Global, or each character |
 

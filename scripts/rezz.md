@@ -16,7 +16,7 @@ On the Configuration Studio page [Healing](/studio/healing.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|
-| **Rezz** |  |  | Global, or each character |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **Resurrection mana (also the infuse amount at full mana)** | A number, at least 5, at most 50. | 30 | Global, or each character |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **Rejuvenation mana (the nimbus colour follows the mana; 40 reached silver)** | A number, at least 5, at most 100. | 40 | Global, or each character |
+| <span id="setting-activities-rezz"></span>**Rezz** |  |  | Global, or each character |
+| <span id="setting-activities-rezz-rezz-mana"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Resurrection mana (also the infuse amount at full mana)** | A number, at least 5, at most 50. | 30 | Global, or each character |
+| <span id="setting-activities-rezz-rejuv-mana"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Rejuvenation mana (the nimbus colour follows the mana; 40 reached silver)** | A number, at least 5, at most 100. | 40 | Global, or each character |
 

@@ -6,9 +6,9 @@ A banker character who holds the vault for free-to-play characters that cannot b
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|
-| **Banker character** | Character running .sell-loot vault for this F2P client. | (blank) | Each character |
-| **Banker room** | Native GrayDR room where F2P clients meet the banker. A number, at least 0, at most 999999999. | 0 | Each character |
-| **Authorized vault clients** | Semicolon-separated F2P characters served in rotation. | (blank) | Each character |
-| **Vault platinum return** | Platinum returned to each F2P client after banking. A number, at least 1, at most 100000. | 10 | Each character |
-| **Train Outdoorsmanship while idle** | The standalone vault collects rocks only while no client is active. Yes or No. | Yes | Each character |
+| <span id="setting-activities-f2p-banker-name"></span>**Banker character** | Character running .sell-loot vault for this F2P client. | (blank) | Each character |
+| <span id="setting-activities-f2p-banker-room"></span>**Banker room** | Native GrayDR room where F2P clients meet the banker. A number, at least 0, at most 999999999. | 0 | Each character |
+| <span id="setting-activities-f2p-vault-clients"></span>**Authorized vault clients** | Semicolon-separated F2P characters served in rotation. | (blank) | Each character |
+| <span id="setting-activities-f2p-return-platinum"></span>**Vault platinum return** | Platinum returned to each F2P client after banking. A number, at least 1, at most 100000. | 10 | Each character |
+| <span id="setting-activities-f2p-idle-outdoorsmanship"></span>**Train Outdoorsmanship while idle** | The standalone vault collects rocks only while no client is active. Yes or No. | Yes | Each character |
 

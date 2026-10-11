@@ -18,7 +18,7 @@ On the Configuration Studio page [Events](/studio/events.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|
-| **Deed container** | Where sack deeds go (game noun). Everyone has a duffel bag. | duffel bag | Global, or each character |
-| **Pouch handoff room** | Where full gem pouches change hands (room number). Default is the Crossing docks south end. A number, at least 0. Must be a room on the map. | 10190 | Global, or each character |
-| **Pouch seller** | The character who takes full gem pouches and sells them at the gem shop. | Jang | Global, or each character |
+| <span id="setting-activities-zasele-deed-container"></span>**Deed container** | Where sack deeds go (game noun). Everyone has a duffel bag. | duffel bag | Global, or each character |
+| <span id="setting-activities-zasele-meeting-room"></span>**Pouch handoff room** | Where full gem pouches change hands (room number). Default is the Crossing docks south end. A number, at least 0. Must be a room on the map. | 10190 | Global, or each character |
+| <span id="setting-activities-zasele-pouch-seller"></span>**Pouch seller** | The character who takes full gem pouches and sells them at the gem shop. | Jang | Global, or each character |
 

@@ -24,14 +24,14 @@ On the Configuration Studio page [Locksmithing](/studio/locksmithing.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|
-| **Locksmithing training boxes** |  |  | Global, or each character |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **Daily training boxes** | A list. | (not set) | Global, or each character |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **Consumable training boxes** | A list. | (not set) | Global, or each character |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **Use consumable boxes first** | Yes or No. | No | Global, or each character |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **Pick live boxes before training** | Yes or No. | Yes | Global, or each character |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **Daily boxes are worn** | Yes or No. | No | Global, or each character |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **Use a worn lockpick ring** | Yes or No. | Yes | Global, or each character |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **Sell loot after live boxes** | Yes or No. | Yes | Global, or each character |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **Return room after selling** | A number, at least 1. | (not set) | Global, or each character |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **Consumable-box container** |  | (not set) | Global, or each character |
+| <span id="setting-activities-locksmithing"></span>**Locksmithing training boxes** |  |  | Global, or each character |
+| <span id="setting-activities-locksmithing-training-box-list"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Daily training boxes** | A list. | (not set) | Global, or each character |
+| <span id="setting-activities-locksmithing-consumable-lockboxes"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Consumable training boxes** | A list. | (not set) | Global, or each character |
+| <span id="setting-activities-locksmithing-prioritize-consumable-lockboxes"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Use consumable boxes first** | Yes or No. | No | Global, or each character |
+| <span id="setting-activities-locksmithing-pick-live-boxes"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Pick live boxes before training** | Yes or No. | Yes | Global, or each character |
+| <span id="setting-activities-locksmithing-picking-worn-lockbox"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Daily boxes are worn** | Yes or No. | No | Global, or each character |
+| <span id="setting-activities-locksmithing-use-lockpick-ring"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Use a worn lockpick ring** | Yes or No. | Yes | Global, or each character |
+| <span id="setting-activities-locksmithing-sell-loot"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Sell loot after live boxes** | Yes or No. | Yes | Global, or each character |
+| <span id="setting-activities-locksmithing-safe-room"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Return room after selling** | A number, at least 1. | (not set) | Global, or each character |
+| <span id="setting-activities-locksmithing-loot-container"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Consumable-box container** |  | (not set) | Global, or each character |
 

@@ -6,7 +6,7 @@ How a typed line becomes a script run: the dot prefix, the names that work witho
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|
-| **Script prefix** | Typing this prefix before a name runs that script (for example .master-train). Leave empty to disable. | . | Global |
-| **Bare commands** | Space-separated script names that run without the prefix, like game commands (default: go2). Pick names the game will never use; remove a name here if the game ever claims it. | go2 | Global |
-| **Bare-word aliases** | Semicolon-separated name=expansion pairs. Typing the bare name runs the full expansion (for example spot=go2 2030; home=go2 10028). | (blank) | Global |
+| <span id="setting-commands-script-prefix"></span>**Script prefix** | Typing this prefix before a name runs that script (for example .master-train). Leave empty to disable. | . | Global |
+| <span id="setting-commands-promoted"></span>**Bare commands** | Space-separated script names that run without the prefix, like game commands (default: go2). Pick names the game will never use; remove a name here if the game ever claims it. | go2 | Global |
+| <span id="setting-commands-aliases"></span>**Bare-word aliases** | Semicolon-separated name=expansion pairs. Typing the bare name runs the full expansion (for example spot=go2 2030; home=go2 10028). | (blank) | Global |
 

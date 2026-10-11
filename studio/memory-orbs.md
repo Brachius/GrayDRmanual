@@ -8,8 +8,8 @@ Scripts that read these settings: [Memory Orbs](/scripts/memory-orbs.md).
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|
-| **Memory orb handling** |  |  | Global, or each character |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **Orb item** |  | memory orb | Global, or each character |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **Source container** _(required)_ |  | (not set) | Global, or each character |
-| &nbsp;&nbsp;&nbsp;&nbsp;↳ **Temporary processed container** _(required)_ |  | (not set) | Global, or each character |
+| <span id="setting-activities-memory-orbs"></span>**Memory orb handling** |  |  | Global, or each character |
+| <span id="setting-activities-memory-orbs-item"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Orb item** |  | memory orb | Global, or each character |
+| <span id="setting-activities-memory-orbs-source-container"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Source container** _(required)_ |  | (not set) | Global, or each character |
+| <span id="setting-activities-memory-orbs-processed-container"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Temporary processed container** _(required)_ |  | (not set) | Global, or each character |
 

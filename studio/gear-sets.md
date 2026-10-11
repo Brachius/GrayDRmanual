@@ -6,5 +6,5 @@ Named sets of worn items, such as the set called standard, that scripts put back
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|
-| **Named gear sets** | Map each set name (for example standard) to the full descriptions of items that should be worn. A table of name and value pairs. | (not set) | Global, or each character |
+| <span id="setting-gear-sets"></span>**Named gear sets** | Map each set name (for example standard) to the full descriptions of items that should be worn. A table of name and value pairs. | (not set) | Global, or each character |
 

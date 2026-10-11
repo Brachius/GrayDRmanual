@@ -6,8 +6,8 @@ Which logs GrayDR writes for this character and where. The debug log is the stan
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|
-| **Normal plain-text log** | Record exactly the visible main-window text without timestamps or formatting. Yes or No. | Yes | Each character |
-| **Warning and error snapshots** | Keep a 64 KB recent-text ring and write separate warning/error snapshots. The ring is released when this option is off. Yes or No. | No | Each character |
-| **Debug log** | Full timestamped debug capture: everything shown in the window, every command sent with its owner, everything received, and command timing records. The standing diagnosis tool - leave it on. Authentication payloads are redacted. Yes or No. | No | Each character |
-| **Log directory** | Leave blank for the shared profile logs directory, or choose another folder. Relative paths are resolved beside engine.yaml. | (blank) | Each character |
+| <span id="setting-logging-normal-enabled"></span>**Normal plain-text log** | Record exactly the visible main-window text without timestamps or formatting. Yes or No. | Yes | Each character |
+| <span id="setting-logging-error-enabled"></span>**Warning and error snapshots** | Keep a 64 KB recent-text ring and write separate warning/error snapshots. The ring is released when this option is off. Yes or No. | No | Each character |
+| <span id="setting-logging-debug-enabled"></span>**Debug log** | Full timestamped debug capture: everything shown in the window, every command sent with its owner, everything received, and command timing records. The standing diagnosis tool - leave it on. Authentication payloads are redacted. Yes or No. | No | Each character |
+| <span id="setting-logging-directory"></span>**Log directory** | Leave blank for the shared profile logs directory, or choose another folder. Relative paths are resolved beside engine.yaml. | (blank) | Each character |
 

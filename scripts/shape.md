@@ -24,5 +24,5 @@ On the Configuration Studio page [Crafting](/studio/crafting.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|
-| **Private engineering room (0 = public shaping rooms)** | A number, at least 0. Must be a room on the map. | 0 | Global, or each character |
+| <span id="setting-crafting-engineering-room"></span>**Private engineering room (0 = public shaping rooms)** | A number, at least 0. Must be a room on the map. | 0 | Global, or each character |
 

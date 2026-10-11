@@ -8,56 +8,201 @@
   <meta name="description" content="The GrayDR user manual: the window, typed commands, every script, the Configuration Studio, the Data Editor and the Account Board.">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4.13.1/lib/themes/vue.css">
   <style>
-    /* High contrast, DARK (Josh 2026-10-10, same as his app windows): black
-       pages, white text, yellow links, nothing grey or pale. */
-    :root { --theme-color: #ffe600; --base-font-size: 17px; }
-    html, body { color: #fff; background: #000; font-size: 17px; line-height: 1.55; }
+    /* Dark high contrast (Josh 2026-10-10): black pages, white text in a
+       plain heavy face, yellow for links and the one thing being pointed
+       at, grey hairlines, no underlines through headings. */
+    :root { --theme-color: #ffe600; }
+    html, body { color: #fff; background: #000; }
+    body, .markdown-section, .sidebar, .sidebar ul li a, .search-box input, .search-results {
+      font-family: "Segoe UI", Tahoma, Arial, sans-serif; font-weight: 400;
+    }
+    body { font-size: 18px; line-height: 1.6; }
     .content, main, section.content { background: #000; }
-    .markdown-section { max-width: 1000px; color: #fff; }
-    .markdown-section p, .markdown-section li, .markdown-section td, .markdown-section em, .markdown-section strong { color: #fff; }
-    .markdown-section h1, .markdown-section h2, .markdown-section h3 { color: #fff; font-weight: 700; }
-    .markdown-section h1 { font-size: 2em; border-bottom: 3px solid #ffe600; padding-bottom: .2em; }
-    .markdown-section h2 { font-size: 1.45em; border-bottom: 1px solid #888; padding-bottom: .15em; margin-top: 2em; }
-    .markdown-section a { color: #ffe600; text-decoration: underline; font-weight: 600; }
-    .markdown-section a:hover { color: #000; background: #ffe600; }
-    .markdown-section code { color: #fff; background: #222; border: 1px solid #666; font-size: .95em; }
-    .markdown-section pre { background: #111; border: 1px solid #888; }
+    .markdown-section { max-width: 1050px; color: #fff; padding: 20px 40px 60px; }
+    .markdown-section p, .markdown-section li, .markdown-section td, .markdown-section em { color: #fff; font-weight: 400; }
+    .markdown-section strong, .markdown-section td strong { color: #fff; font-weight: 700; }
+    .markdown-section h1, .markdown-section h2, .markdown-section h3 { color: #fff; font-weight: 700; border: 0; }
+    .markdown-section h1 { font-size: 2em; margin: .4em 0 .6em; }
+    .markdown-section h2 { font-size: 1.5em; margin: 1.8em 0 .6em; }
+    .markdown-section h3 { font-size: 1.2em; margin: 1.4em 0 .5em; }
+    .markdown-section h1 a, .markdown-section h2 a, .markdown-section h3 a,
+    .markdown-section h1 a:hover, .markdown-section h2 a:hover, .markdown-section h3 a:hover {
+      color: #fff; text-decoration: none; background: none; font-weight: 700;
+    }
+    .markdown-section a { color: #ffe600; text-decoration: none; font-weight: 600; }
+    .markdown-section a:hover { text-decoration: underline; }
+    .markdown-section code { color: #fff; background: #1c1c1c; border: 1px solid #555; font-size: .95em; font-weight: 500; }
+    .markdown-section pre { background: #111; border: 1px solid #555; }
     .markdown-section pre > code { color: #fff; background: #111; border: 0; font-size: 1em; }
     .markdown-section table { display: table; width: 100%; border-collapse: collapse; }
-    .markdown-section th { background: #000; color: #fff; border: 1px solid #888; border-bottom: 3px solid #ffe600; padding: 8px 10px; text-align: left; }
-    .markdown-section td { border: 1px solid #888; padding: 8px 10px; vertical-align: top; }
+    .markdown-section th { background: #000; color: #fff; border: 1px solid #555; padding: 9px 11px; text-align: left; font-weight: 700; }
+    .markdown-section td { border: 1px solid #555; padding: 9px 11px; vertical-align: top; }
     .markdown-section tr { background: #000; }
-    .markdown-section tr:nth-child(2n) { background: #141414; }
-    .markdown-section blockquote { border-left: 5px solid #ffe600; color: #fff; background: #141414; }
-    .markdown-section hr { border-bottom: 1px solid #888; }
+    .markdown-section tr:nth-child(2n) { background: #111; }
+    .markdown-section tr.found { background: #2a2600; outline: 3px solid #ffe600; }
+    .markdown-section blockquote { border-left: 5px solid #ffe600; color: #fff; background: #111; }
+    .markdown-section hr { border-bottom: 1px solid #555; }
 
-    .sidebar { background: #000; color: #fff; border-right: 2px solid #888; width: 320px; }
+    .sidebar { background: #000; color: #fff; border-right: 2px solid #555; width: 340px; padding-top: 0; }
     .sidebar .app-name-link, .sidebar .app-name { color: #fff; font-weight: 800; }
     .sidebar ul li a { color: #fff; font-size: 15px; font-weight: 500; }
-    .sidebar ul li a:hover { color: #ffe600; text-decoration: underline; }
+    .sidebar ul li a:hover { color: #ffe600; }
     .sidebar ul li.active > a { color: #ffe600; font-weight: 800; border-right: 5px solid #ffe600; }
-    .sidebar ul li strong { color: #fff; }
-    .sidebar > h1 { margin: 10px 0 0; }
     .sidebar ul li ul { padding-left: 0; }
     .sidebar li { margin: 4px 0; }
-    .sidebar .search { border-bottom: 2px solid #888; }
-    .sidebar .search input { color: #fff; background: #000; font-size: 16px; padding: 6px 8px; border: 2px solid #888; }
-    .sidebar .search .clear-button svg { stroke: #fff; }
-    .sidebar .search .results-panel { color: #fff; }
-    .sidebar .search .matching-post { border-bottom: 1px solid #666; }
-    .sidebar .search .matching-post a { color: #fff; }
-    .sidebar .search .matching-post h2 { color: #ffe600; font-size: 15px; }
-    .sidebar .search .matching-post p { color: #fff; font-size: 13px; }
-    .sidebar .search .search-keyword { color: #000; background: #ffe600; font-style: normal; font-weight: 700; }
+    .sidebar > h1 { margin: 10px 0 0; }
     .sidebar-toggle { background: #000; }
     .sidebar-toggle span { background: #ffe600; }
     .content { padding-top: 0; }
-    @media (min-width: 769px) { .content { left: 320px; } .sidebar-toggle { left: 0; } body.close .content { left: 0; } }
+    @media (min-width: 769px) { .content { left: 340px; } .sidebar-toggle { left: 0; } body.close .content { left: 0; } }
+
+    .search-box { padding: 10px 12px; border-bottom: 2px solid #555; background: #000; }
+    .search-box input { width: 100%; box-sizing: border-box; color: #fff; background: #000; font-size: 16px; padding: 7px 9px; border: 2px solid #777; outline: none; }
+    .search-box input:focus { border-color: #ffe600; }
+    .search-box .search-hint { color: #bbb; font-size: 13px; margin: 6px 0 0; }
+    .search-results { padding: 0 12px 12px; display: none; }
+    .search-results.open { display: block; }
+    .search-results .result { display: block; padding: 8px 6px; border-bottom: 1px solid #333; color: #fff; text-decoration: none; }
+    .search-results .result:hover, .search-results .result:focus { background: #1c1c1c; outline: 2px solid #ffe600; }
+    .search-results .kind { color: #ffe600; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; }
+    .search-results .title { font-size: 15px; font-weight: 700; margin: 2px 0; }
+    .search-results .crumb { color: #bbb; font-size: 12px; }
+    .search-results .snippet { color: #ddd; font-size: 13px; margin-top: 2px; }
+    .search-results mark { background: #ffe600; color: #000; font-weight: 700; }
+    .search-results .count { color: #bbb; font-size: 13px; padding: 8px 6px; }
+    body.searching .sidebar-nav { display: none; }
   </style>
 </head>
 <body>
   <div id="app">Loading the manual...</div>
   <script>
+    // The manual's own search: the index is built with the pages, one entry
+    // per setting (landing on its row), per script, per heading. Every word
+    // typed must appear; the whole phrase in a name ranks first.
+    function manualSearch(hook, vm) {
+      var index = null;
+      var box, input, results;
+
+      function load() {
+        if (index) return Promise.resolve(index);
+        return fetch('search-index.json', { cache: 'no-cache' })
+          .then(function (r) { return r.json(); })
+          .then(function (data) { index = data; return index; });
+      }
+
+      function escapeHtml(s) {
+        return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; });
+      }
+
+      function highlight(text, words) {
+        var out = escapeHtml(text);
+        words.forEach(function (w) {
+          var re = new RegExp('(' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'ig');
+          out = out.replace(re, '<mark>$1</mark>');
+        });
+        return out;
+      }
+
+      function snippet(text, phrase, words) {
+        var low = text.toLowerCase();
+        var at = low.indexOf(phrase);
+        if (at < 0) { words.some(function (w) { at = low.indexOf(w); return at >= 0; }); }
+        if (at < 0) at = 0;
+        var start = Math.max(0, at - 50);
+        var piece = text.slice(start, start + 160);
+        return (start > 0 ? '…' : '') + highlight(piece, words) + (start + 160 < text.length ? '…' : '');
+      }
+
+      function score(entry, phrase, words) {
+        var title = entry.title.toLowerCase();
+        var text = entry.text.toLowerCase();
+        var all = words.every(function (w) { return title.indexOf(w) >= 0 || text.indexOf(w) >= 0; });
+        if (!all) return 0;
+        var s = 100;
+        if (title === phrase) s += 1000;
+        else if (title.indexOf(phrase) >= 0) s += 500;
+        else if (words.every(function (w) { return title.indexOf(w) >= 0; })) s += 300;
+        else if (text.indexOf(phrase) >= 0) s += 200;
+        if (entry.kind === 'Setting' || entry.kind === 'Script') s += 30;
+        if (entry.kind === 'Page') s += 15;
+        return s - Math.min(title.length, 60) / 10;
+      }
+
+      function render(query) {
+        var phrase = query.trim().toLowerCase().replace(/\s+/g, ' ');
+        var words = phrase.split(' ').filter(Boolean);
+        if (!words.length) {
+          results.innerHTML = '';
+          results.classList.remove('open');
+          document.body.classList.remove('searching');
+          return;
+        }
+        load().then(function (data) {
+          var hits = data.map(function (e) { return { e: e, s: score(e, phrase, words) }; })
+            .filter(function (h) { return h.s > 0; })
+            .sort(function (a, b) { return b.s - a.s; })
+            .slice(0, 40);
+          document.body.classList.add('searching');
+          results.classList.add('open');
+          if (!hits.length) {
+            results.innerHTML = '<div class="count">Nothing matches "' + escapeHtml(query) + '"</div>';
+            return;
+          }
+          var html = '<div class="count">' + hits.length + (hits.length === 40 ? '+' : '') + ' matches, best first</div>';
+          hits.forEach(function (h) {
+            var e = h.e;
+            var href = '#' + e.path + (e.id ? '?id=' + e.id : '');
+            html += '<a class="result" href="' + href + '">'
+              + '<div class="kind">' + escapeHtml(e.kind) + '</div>'
+              + '<div class="title">' + highlight(e.title, words) + '</div>'
+              + (e.crumb ? '<div class="crumb">' + escapeHtml(e.crumb) + '</div>' : '')
+              + (e.text ? '<div class="snippet">' + snippet(e.text, phrase, words) + '</div>' : '')
+              + '</a>';
+          });
+          results.innerHTML = html;
+        });
+      }
+
+      function markTarget() {
+        var id = (vm.route.query || {}).id;
+        document.querySelectorAll('tr.found').forEach(function (tr) { tr.classList.remove('found'); });
+        if (!id) return;
+        var el = document.getElementById(id);
+        if (!el) return;
+        var row = el.closest('tr');
+        if (row) row.classList.add('found');
+        (row || el).scrollIntoView({ block: 'center' });
+      }
+
+      hook.mounted(function () {
+        var sidebar = document.querySelector('.sidebar');
+        box = document.createElement('div');
+        box.className = 'search-box';
+        box.innerHTML = '<input type="search" placeholder="Search settings, scripts, pages" aria-label="Search the manual">'
+          + '<div class="search-hint">Type a setting name, a script, or any words. Clear the box to see the chapters again.</div>';
+        results = document.createElement('div');
+        results.className = 'search-results';
+        sidebar.insertBefore(results, sidebar.firstChild);
+        sidebar.insertBefore(box, sidebar.firstChild);
+        input = box.querySelector('input');
+        var timer = null;
+        input.addEventListener('input', function () {
+          clearTimeout(timer);
+          timer = setTimeout(function () { render(input.value); }, 120);
+        });
+        results.addEventListener('click', function (ev) {
+          var a = ev.target.closest('a.result');
+          if (!a) return;
+          // Same page: the router will not re-render, so point at the row now.
+          setTimeout(markTarget, 450);
+        });
+        load();
+      });
+
+      // After the page's own scroll-to-top, so the row ends up centred.
+      hook.doneEach(function () { setTimeout(markTarget, 400); });
+    }
+
     window.$docsify = {
       name: 'GrayDR manual',
       loadSidebar: true,
@@ -65,17 +210,10 @@
       relativePath: false,
       auto2top: true,
       maxLevel: 3,
-      search: {
-        paths: 'auto',
-        depth: 3,
-        placeholder: 'Search the manual',
-        noData: 'Nothing found',
-        hideOtherSidebarContent: true
-      },
-      alias: { '/.*/_sidebar.md': '/_sidebar.md' }
+      alias: { '/.*/_sidebar.md': '/_sidebar.md' },
+      plugins: [manualSearch]
     };
   </script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4.13.1/lib/docsify.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4.13.1/lib/plugins/search.min.js"></script>
 </body>
 </html>

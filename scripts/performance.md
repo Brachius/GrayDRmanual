@@ -26,7 +26,7 @@ On the Configuration Studio page [Performance](/studio/performance.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|
-| **Hand armor to remove** | Required only when a held instrument is configured. | (blank) | Global, or each character |
-| **Held instrument** | Optional instrument that must be removed and held to play. | (blank) | Global, or each character |
-| **Perform while healing** | Yes or No. | No | Global, or each character |
+| <span id="setting-activities-performance-hand-armor"></span>**Hand armor to remove** | Required only when a held instrument is configured. | (blank) | Global, or each character |
+| <span id="setting-activities-performance-held-instrument"></span>**Held instrument** | Optional instrument that must be removed and held to play. | (blank) | Global, or each character |
+| <span id="setting-activities-performance-while-healing"></span>**Perform while healing** | Yes or No. | No | Global, or each character |
 

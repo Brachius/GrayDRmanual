@@ -24,7 +24,7 @@ On the Configuration Studio page [Crafting](/studio/crafting.md):
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|
-| **Craft training rooms** | A list of room names. | (not set) | Global, or each character |
-| **Maximum crafting mindstate** | A number, at least 0, at most 34. | 31 | Global, or each character |
-| **Rank-tier recipe overrides** |  |  | Global, or each character |
+| <span id="setting-crafting-training-rooms"></span>**Craft training rooms** | A list of room names. | (not set) | Global, or each character |
+| <span id="setting-crafting-craft-max-mindstate"></span>**Maximum crafting mindstate** | A number, at least 0, at most 34. | 31 | Global, or each character |
+| <span id="setting-crafting-craft-overrides"></span>**Rank-tier recipe overrides** |  |  | Global, or each character |
 
