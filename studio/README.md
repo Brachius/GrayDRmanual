@@ -29,7 +29,7 @@ Two pages are built differently and have their own chapters: [Gear](/studio.md#t
 | [Athletics](/studio/athletics.md) | Which route Athletics trains on and what to hold while climbing. | 9 |
 | [Profit Tracker](/studio/profit-tracker.md) | Whether income is recorded, and which gem pouch belongs to whom. | 3 |
 | [Tarantula](/studio/tarantula.md) | The biomechanical tarantula or harvester spider that eats field experience during a hunt: which skills it may take, which activities block it. | 6 |
-| [Events](/studio/events.md) | Hollow Eve: the Zasele tasks and deed sorting. | 3 |
+| [Events](/studio/events.md) | Hollow Eve: the Zasele tasks and deed sorting. | 5 |
 | [Performance](/studio/performance.md) | The instrument, its cleaning cloth, and the mind state goal. | 6 |
 | [Scholarship Training](/studio/scholarship.md) | The almanac and the books used for Scholarship. | 7 |
 | [Theurgy](/studio/theurgy.md) | Rituals, communes, the prayer mat, the immortal aspect, tithing, supplies, and bead carving. | 23 |
