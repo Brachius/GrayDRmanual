@@ -2,7 +2,7 @@
 
 Script name: `weave-cloth`
 
-Weave two thread items into cloth at a town tailoring society.
+Takes two thread items you are carrying to a tailoring-society loom and weaves them into one cloth item. Make the thread first with Spin Thread; a chain does both: `.chain 2x spin silk | weave-cloth`.
 
 ## How to start it
 

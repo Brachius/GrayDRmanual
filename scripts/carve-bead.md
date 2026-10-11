@@ -2,7 +2,7 @@
 
 Script name: `carve-bead`
 
-Carves a prayer bead for the Theurgy page's aspect. Words: `debug`, `primer` (use the carving primer), or an aspect name.
+Carves a prayer bead for your immortal's aspect with the carving knife from the Theurgy page. Words: `primer` uses the carving primer, `debug` prints each step, an aspect name carves for that aspect instead.
 
 ## How to start it
 

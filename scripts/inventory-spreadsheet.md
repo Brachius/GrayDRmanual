@@ -2,7 +2,22 @@
 
 Script name: `inventory-spreadsheet`
 
-Records the carried, eddy and vault items and writes a CSV for Google Sheets. Words: `status`, `resume` (continue a vault restore), `stop-cleanup`, `help`.
+Records everything you carry, wear, keep in the eddy and keep in the vault, and writes a CSV you can open in Google Sheets. The vault pass takes items out to read them and puts them back.
+
+```
+.inventory-spreadsheet                 carried, worn and vault
+.inventory-spreadsheet inventory       carried and worn only
+.inventory-spreadsheet vault           vault only
+.inventory-spreadsheet vault-scan      rummage the vault, move nothing
+.inventory-spreadsheet categories weapon,registered
+.inventory-spreadsheet pouches         (also: autoloot, containers, quantities)
+.inventory-spreadsheet export          write the CSV
+.inventory-spreadsheet status          where it is
+.inventory-spreadsheet resume          carry on putting the vault back after a stop
+.inventory-spreadsheet stop-cleanup
+```
+
+Options: `--limit=N`, `--match=TEXT`, `--skip-special`, `--skip-categories`, `--carousel=ROOM`.
 
 ## How to start it
 

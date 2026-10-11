@@ -2,7 +2,7 @@
 
 Script name: `locksmithing`
 
-Train Locksmithing with daily and consumable training boxes.
+Trains Locksmithing on boxes you own: the daily training box and the consumable keepsake and jewelry boxes, which it takes in the order set under **Locksmithing training boxes** on the Locksmithing page (consumables first when that is ticked). Lockpicks come from the **Lockpick holder**. Loot from a consumable box goes in the loot container named there. It stops at mind lock. `.locksmithing once` picks a single box, which the combat scripts use between fights.
 
 ## How to start it
 

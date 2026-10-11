@@ -2,7 +2,18 @@
 
 Script name: `tinker`
 
-Native port of tinker.lic including mechanisms and bow enhancements.
+Tinkering: bolts, darts, mechanisms and the bow enhancements, with consumable restocking.
+
+```
+.tinker 7 "wooden bolt" maple bolts
+.tinker 3 "simple mechanism" maple mechanism glaes
+.tinker instructions maple bolts
+.tinker resume bolts
+.tinker laminate bow            (also: lighten, cable)
+.tinker mechanisms bronze 5
+```
+
+Chapter, recipe in quotes, material, then the noun. A trailing word that is not `skip` names the metal for a mechanism. `skip` skips restocking. `mechanisms` makes mechanisms from a metal, with an optional count and size word from s1 to s12.
 
 ## How to start it
 

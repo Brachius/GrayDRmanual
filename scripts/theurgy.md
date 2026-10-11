@@ -2,7 +2,7 @@
 
 Script name: `theurgy`
 
-Train Theurgy using configured rituals
+Cleric Theurgy training: the rituals and communes for your immortal's aspect, with the prayer mat, incense, holy water and the other supplies from the **Ritual supply container**, restocked when they fall below the level set on the Theurgy page. It tithes when **Perform tithe** is on, and runs Carve-bead and Favor as parts of the work when the settings call for them. A stop part-way puts everything back: the incense is snuffed, the mat rolled and stowed, the devotional items returned. Every setting is on the Theurgy page.
 
 ## How to start it
 

@@ -2,7 +2,14 @@
 
 Script name: `spin`
 
-Buy fibers and spin them into thread at a town tailoring society.
+Buys fibers at the tailoring society and spins them into one thread item on the society's spinning wheel.
+
+```
+.spin silk
+.spin burlap heavy
+```
+
+The material is silk, cotton, linen, wool or burlap. The second word sets the wheel: fine, thin, average, thick, heavy (the default) or yarn.
 
 ## How to start it
 

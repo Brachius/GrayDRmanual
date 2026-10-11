@@ -2,7 +2,14 @@
 
 Script name: `smith`
 
-The forging path work orders use per item: finds the recipe by name, buys the parts and optionally the ingot, walks to an anvil or the private forge (renewing the rental when it runs low), restocks oil, casts the smith buff set, then forges, with optional stamp and enhancement passes and scrap disposal. Takes the material and the item name.
+The all-in-one forging run that work orders use for each item, and that you can run yourself: it finds the recipe by name, buys the parts and (with `buy`) the ingot, walks to an anvil or your private forge, restocks oil, casts your smith buff set, then forges. Optional stamp and enhancement passes follow, and scrap is thrown out.
+
+```
+.smith bronze "shallow metal cup"
+.smith steel "metal lockpick ring" buy
+```
+
+The metal comes first, then the item name in quotes. Add `buy` to buy the ingot at the stock room instead of using one you carry.
 
 ## How to start it
 

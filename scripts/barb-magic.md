@@ -2,7 +2,7 @@
 
 Script name: `barb-magic` (also starts as `Barb_Magic`)
 
-Activate an ordered list of Barbarian abilities for training.
+Activates the Barbarian abilities listed under **Barbarian training abilities** on the Buffs page, in that order: forms, roars, berserks and meditations, sitting for the meditations when **Sit for meditations** is on. Started as a Master Train step or by hand; `Barb_Magic` is the same script under its old name.
 
 ## How to start it
 

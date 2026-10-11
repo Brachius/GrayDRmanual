@@ -2,7 +2,16 @@
 
 Script name: `performance`
 
-Train Performance with the configured instrument.
+Plays your worn instrument (**Performance worn instrument**, normally zills) until Performance reaches the goal. It cleans the instrument with the cleaning cloth when the game says it is dirty or damp, and takes off the hand armor named on the Performance page when a held instrument is used.
+
+```
+.performance
+.performance 25
+.performance noclean
+.performance checksong
+```
+
+The number is the mind state to stop at, 1 to 34; without one, **Performance mindstate goal** is used. `noclean` skips the cleaning, `checksong` only checks which song is playing and stops.
 
 ## How to start it
 

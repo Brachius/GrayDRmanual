@@ -2,7 +2,7 @@
 
 Script name: `walkingastro`
 
-Train Astrology in the background while hunting or crafting - observe through the telescope whenever the sky is visible and predict when a pool fills, exactly like walkingastro.lic. Runs until stopped.
+Astrology on the side while you hunt or craft: about every three and a half minutes, or when the last observation is pondered, it buffs, takes the telescope out, centres it on a constellation for the time of day, peers, and predicts when a pool is full. Runs until you stop it with `.k walkingastro`. The scripts it must never interrupt are listed under **Do not observe while these scripts run** on the Magic page. `debug` prints each decision.
 
 ## How to start it
 

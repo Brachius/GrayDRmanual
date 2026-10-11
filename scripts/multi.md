@@ -2,7 +2,14 @@
 
 Script name: `multi`
 
-Repeat an ordered mixture of game commands and child scripts.
+Repeats a list of game commands and scripts in order. Separate the entries with commas, or with semicolons when no entry has a comma in it. A script entry starts with a colon or semicolon and is waited for; anything else is sent to the game. Put the repeat count first or last.
+
+```
+.multi 2,cough,:wait 1,sneeze
+.multi 5,:spin silk,:weave-cloth
+```
+
+Chain does the same job with a plainer shape; use whichever reads better to you.
 
 ## How to start it
 

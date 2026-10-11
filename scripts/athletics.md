@@ -2,7 +2,16 @@
 
 Script name: `athletics`
 
-Train Athletics using a selected route or stationary mode.
+Trains Athletics to a goal and comes back. The route is the **Athletics route** setting or the word you type: `wyvern`, `xalas`, `undergondola` or `cliffs` climb that route; `stationary` practises in place with the rope (**Carry a climbing rope** and its adjective are on the Athletics page); with no word and the route on auto, it picks by your ranks (cliffs under 540, wyvern above). Below 850 ranks the undergondola is not the best choice and it says so.
+
+```
+.athletics
+.athletics wyvern
+.athletics max
+.athletics stationary skip_magic
+```
+
+Without `max` the goal is 15 mind states up, capped at 29; `max` goes to 32 of 34. `skip_magic` skips the buffs first. Between passes it checks for stuns, bleeding and the AFK emergency exit, never mid-pass. What you hold while climbing is listed under **Athletics held items**; it is taken out first and stowed after.
 
 ## How to start it
 

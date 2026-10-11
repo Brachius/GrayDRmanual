@@ -2,7 +2,7 @@
 
 Script name: `smelt`
 
-Work a loaded crucible until the metal is mixed, exactly like smelt.lic.
+Works a crucible you have already loaded until the metal is thoroughly mixed: it stirs with the stirring rod, turns the clumps, pushes the bellows when the fire flickers, and adds fuel with the shovel or the tongs when it asks for it. `.smelt refine` pours flux over the ingot in the crucible instead of stirring. Make Steel and the own-ingot forging path call it for you.
 
 ## How to start it
 

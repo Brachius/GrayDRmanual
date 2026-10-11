@@ -2,7 +2,9 @@
 
 Script name: `safe-room`
 
-Select configured PC Empath, self-healing, NPC, or Necromancer healing routes.
+Gets you healed, the way the Healing page's **Safe-room healing policy** says: by a player Empath in the safe room, by yourself (Empath self-healing), by an NPC, or the Necromancer way. It walks to the safe room first, waits for the healing, and leaves when the wounds are gone. With no wounds it does nothing.
+
+`.safe-room skip` stays in the room you are in instead of walking; `.safe-room force` runs the whole thing even with no wounds showing.
 
 ## How to start it
 

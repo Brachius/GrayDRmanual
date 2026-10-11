@@ -2,7 +2,15 @@
 
 Script name: `carve`
 
-Native port of carve.lic.
+Carves a stone or bone piece with the carving tools from your belt and bag.
+
+```
+.carve 5 "stone bowl" alabaster deed bowl
+.carve 2 "bone comb" wolf stack comb
+.carve resume stone bowl
+```
+
+Chapter, recipe in quotes, the material (alabaster, granite, marble; deer or wolf for bone), then how the material comes: `deed`, `stack`, `rock`, `stone`, `pebble` or `boulder`, and last the noun of the finished item. `resume` takes `bone` or `stone` and the noun.
 
 ## How to start it
 

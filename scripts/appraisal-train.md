@@ -2,7 +2,7 @@
 
 Script name: `appraisal-train`
 
-Trains Appraisal by assessing a fiddle in The Broken Blade hallway until mind locked, playing the zills meanwhile so Performance trains too.
+Appraisal to mind lock: walks to The Broken Blade hallway and assesses a fiddle over and over, playing the zills between assesses until Performance is mind locked too.
 
 ## How to start it
 

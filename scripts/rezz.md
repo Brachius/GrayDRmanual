@@ -2,7 +2,7 @@
 
 Script name: `rezz`
 
-Cleric resurrection of a dead player in the room (rezz [player]).
+Cleric resurrection of a dead player in the room: perceive the body, Rejuvenation, Vigil, Resurrection, then Soul Bonding and the gesture, each cast at the name by hand because the game refuses to autocast them. `.rezz` with no name raises every body in the room; `.rezz Croflux` raises one. The mana for Resurrection and Rejuvenation is under **Rezz** on the Healing page.
 
 ## How to start it
 

@@ -2,7 +2,7 @@
 
 Script name: `om`
 
-Creates and loads an Osrel Meraud from one exact deity favor orb. It never uses a bare `get my orb`, which could pick up an unrelated memory orb.
+Creates and loads an Osrel Meraud from one exact deity favor orb, never a bare GET MY ORB that could pick a memory orb instead.
 
 ## How to start it
 

@@ -2,7 +2,14 @@
 
 Script name: `mixcalc`
 
-Volumes of pure metal and magic ingot for a 67/33 mix of a given size.
+A calculator, nothing is sent to the game. It tells you how much pure metal and how much magic ingot (1% main metal, 99% mixing metal) to smelt together for a 67/33 ingot of the size you want. Pure and magic mix two to one, so the batch rounds up to a multiple of three.
+
+```
+.mixcalc 20        Pure: 14  Magic: 7   Total volume: 21
+.mixcalc 4 1       Pure: 2   Magic: 1   Leftover 67/33: 1   Total: 4
+```
+
+The second number is 67/33 you already have; it counts straight toward the total.
 
 ## How to start it
 

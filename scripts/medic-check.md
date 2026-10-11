@@ -2,7 +2,7 @@
 
 Script name: `medic-check` (also starts as `medic_check`)
 
-Heal configured patients, maintain the bonded plant, and recover in the healing room.
+The Empath's rounds, run from Master Train or by hand: walk to the healing room, LOOK, heal every patient on the list who is there, tend the bonded plant, recover, then LOOK and heal again so anyone who arrived meanwhile is caught before leaving. Patients, the plant and the room are under **Empath medic routine** on the Healing page.
 
 ## How to start it
 

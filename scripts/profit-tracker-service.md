@@ -2,7 +2,7 @@
 
 Script name: `profit-tracker-service`
 
-The background half of the Profit Tracker. Started by GrayDR when the tracker is enabled on the Profit Tracker page; you do not start it yourself.
+The recorder half of the Profit Tracker. GrayDR starts it by itself when the tracker is enabled; there is nothing to run.
 
 ## How to start it
 

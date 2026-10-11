@@ -2,7 +2,9 @@
 
 Script name: `healme`
 
-Heals the configured Empath's wounds, scars, vitality, poison and disease. A number sets the severity to heal from; `debug` prints each decision.
+Empath self-healing: works through your wounds, scars, poison and disease with your healing spells, and brings vitality back, in the order of severity. The spells and when to cast them are under **Empath self-healing** on the Healing page.
+
+A number after the name sets the severity to heal from (lesser wounds are left alone); `debug` prints each decision.
 
 ## How to start it
 

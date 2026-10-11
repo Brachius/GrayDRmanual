@@ -2,7 +2,7 @@
 
 Script name: `wait`
 
-Pause a script sequence for a number of seconds.
+Pauses for the number of seconds you give, then waits out any roundtime still running. Meant for the middle of a Multi or Chain: `:wait 5`.
 
 ## How to start it
 

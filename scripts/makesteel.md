@@ -2,7 +2,14 @@
 
 Script name: `makesteel`
 
-Buy iron and coal, smelt steel ingots, optionally refine them, exactly like makesteel.lic.
+Makes steel ingots. It draws the money from the bank, buys iron and coal nuggets at the blacksmithing stock room, loads an empty crucible (all the coal, then all the iron), runs Smelt until the metal is mixed, and puts the steel ingot away. With `refine` it then buys flux if needed and refines the ingot.
+
+```
+.makesteel 1
+.makesteel 3 h refine
+```
+
+The number is how many ingots, 1 to 21. The letter is the carbon: `l` low (one coal per ingot), `m` medium (two), `h` high (three, the default). Each ingot costs 2000 copper.
 
 ## How to start it
 

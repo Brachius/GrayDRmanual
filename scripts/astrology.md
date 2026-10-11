@@ -2,7 +2,7 @@
 
 Script name: `astrology`
 
-Train Moon Mage Astrology by observing the heavens, predicting from full pools, and running Read the Ripples, exactly like astrology.lic.
+Moon Mage Astrology: cycles the tasks under **Astrology training tasks** on the Magic page (observe, rtr, weather, events, attunement, ways) until Astrology reaches mind state 32, predicting from every pool that is ready after each pass. Observing uses the telescope from the Combat page settings; predicting uses the divination tool or bones from the Magic page when **Predict with the divination tool or bones** is on. `.astrology rtr` only casts Read the Ripples and observes its visions.
 
 ## How to start it
 

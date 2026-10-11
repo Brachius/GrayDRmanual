@@ -2,7 +2,15 @@
 
 Script name: `first-aid`
 
-Train First Aid and Scholarship from anatomy charts.
+Trains First Aid, Scholarship or both from anatomy charts: it gets the textbook (or the compendium when **Use anatomy textbook** is off), opens it, turns to the hardest charts you can learn from and studies them, up to **Maximum charts per run**. The zills play while you study unless **Separate First Aid instrument** says otherwise. With a **Bleeding partner** set it skips the charts and tends that character instead.
+
+```
+.first-aid
+.first-aid scholarship
+.first-aid both
+```
+
+The book nouns and the chart count are on the Healing page under First Aid. It stops at mind lock. The warning about First Aid learning poorly is only printed during a named hunt, never on the main hunt.
 
 ## How to start it
 

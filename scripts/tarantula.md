@@ -2,7 +2,7 @@
 
 Script name: `tarantula`
 
-Consume eligible field experience with a biomechanical tarantula or harvester spider.
+The biomechanical tarantula or harvester spider that eats field experience. There is no loop of its own: the hunt feeds it between fights, and the training scripts at their safe moments, from the skills under **Preferred skills by skillset** and never the **Excluded alternate skills**. The item's exact name, the startup delay and the activities that block it are on the Tarantula page. A hunt card's **Tarantula Cutoff** on the Master Train page stops it once the listed skills reach a mind state.
 
 ## How to start it
 

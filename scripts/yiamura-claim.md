@@ -2,7 +2,7 @@
 
 Script name: `yiamura-claim`
 
-Collect the knowledge the yiamura's observer gathered during a hunt (OBSERVE MY YIAMURA). Does nothing when there is nothing to claim.
+Collects what the yiamura's observer gathered during the hunt with OBSERVE MY YIAMURA, as a step of its own after the hunt's skills have drained: a Master Train after-step, or by hand. Does nothing when there is nothing to claim.
 
 ## How to start it
 

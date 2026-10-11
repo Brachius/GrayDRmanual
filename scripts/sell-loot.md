@@ -2,7 +2,9 @@
 
 Script name: `sell-loot`
 
-Sell configured loot and perform optional banking.
+Sells what the hunt brought back and banks the money: the skin bundle at the tannery (or to the Trader kiosk when that is on), the gems from the hunting pouch at the gem shop, metals and stones when **Sell metals and stones** is on, and trap components; then the currency exchange and the bank, keeping **Platinum kept after selling** on hand. The town is **Selling town** or the home town; a town name after the script name overrides it for one run. `.sell-loot vault` is the banker's side of F2P banking.
+
+Every choice is on the Loot page; the pouches are on the Gem Pouches page.
 
 ## How to start it
 

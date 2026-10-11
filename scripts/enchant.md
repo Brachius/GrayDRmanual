@@ -2,7 +2,15 @@
 
 Script name: `enchant`
 
-Native port of enchant.lic with sigil/fount/imbue handling.
+Makes one artificing piece: lays the sigils on the base item with the burin, uses the fount, and imbues with your wand or rod. The burin lives in your left hand and is stowed from there. A piece the game says is already enchanted is binned and the recipe starts over on a new base. A society brazier in the room is used when there is one.
+
+```
+.enchant 1 "radiant trinket" totem
+.enchant 5 "gauge flow runestone" runestone
+.enchant resume totem
+```
+
+Chapter, recipe in quotes, then the noun of the finished item, with the base item's noun after it when the two differ. `resume` scribes on after an imbue. You need the sigil scrolls the recipe asks for, the base item, a fount, and the burin, wand or rod on your belt or in the bag. Craft Training buys all of that for you; Work Orders artificing does too.
 
 ## How to start it
 

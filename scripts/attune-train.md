@@ -2,7 +2,7 @@
 
 Script name: `attune-train`
 
-Mind locks Attunement by rotating through the concentration rooms. Add `sacrifice` to allow the sacrifice step.
+Mind locks Attunement by walking the concentration rooms in turn and perceiving in each. Add `sacrifice` to allow the sacrifice step.
 
 ## How to start it
 

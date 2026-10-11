@@ -2,7 +2,16 @@
 
 Script name: `profit-tracker`
 
-Reports what hunting, crafting and burgling have earned. The recording itself runs in the background while the tracker is enabled on the Profit Tracker page.
+Shows what hunting, crafting and burgling have earned.
+
+```
+.profit-tracker day
+.profit-tracker week
+.profit-tracker lifetime
+.profit-tracker week rock trolls
+```
+
+The last words can name a creature or a hunting zone. The recording runs in the background while **Enable Profit Tracker** is on (Profit Tracker page).
 
 ## How to start it
 

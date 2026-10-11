@@ -2,7 +2,7 @@
 
 Script name: `handoff-receive`
 
-The receiver's side of a handoff when his Master Train is not running. It is started on his window by the giver's script; you do not start it yourself.
+The receiver's half of a handoff when his Master Train is not running. The giver's script starts it on his window; there is nothing to run by hand.
 
 ## How to start it
 

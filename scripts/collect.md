@@ -2,7 +2,7 @@
 
 Script name: `collect`
 
-Walks to the collecting room and collects rocks until both Outdoorsmanship and Perception are done learning: mind locked, or at their rank cap.
+Walks to the collecting room and sends COLLECT ROCK PRACTICE until both Outdoorsmanship and Perception are done learning: mind locked, or at their rank cap.
 
 ## How to start it
 

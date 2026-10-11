@@ -2,7 +2,17 @@
 
 Script name: `craft`
 
-Native rank-tier training port of craft.lic; knitting delegates to Sew.
+Rank-tier crafting training for one discipline: it picks the item that fits your ranks, buys the stock for it, walks to your training room (**Craft training rooms** on the Crafting page, or the safe room), makes the piece with the discipline's own script, and throws the result away. It stops when the skill is past **Skip crafting above this mindstate**.
+
+```
+.craft outfitting
+.craft forging
+.craft engineering
+.craft alchemy
+.craft enchanting
+```
+
+Outfitting knits up to 550 ranks and sews after; forging runs Smith with bronze; engineering shapes maple; alchemy forages and prepares the herbs then makes the remedy; enchanting buys the sigils, base and fount then enchants. **Craft overrides** on the Crafting page lets you name a different item per discipline. Add `debug` to see each step named.
 
 ## How to start it
 

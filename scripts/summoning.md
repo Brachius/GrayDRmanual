@@ -2,7 +2,7 @@
 
 Script name: `summoning`
 
-Train Warrior Mage Summoning by summoning and breaking weapons, then focusing the pathway.
+Warrior Mage Summoning: summons a weapon, breaks it, burns the leftover charge with pathway focus, and repeats until the mind state goal. The gain per run and the ceiling are on the Magic page under Summoning. The element and ingot come from the Combat page's summoned weapon settings and may stay blank.
 
 ## How to start it
 

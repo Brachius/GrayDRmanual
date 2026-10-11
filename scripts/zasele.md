@@ -2,7 +2,11 @@
 
 Script name: `zasele`
 
-Seamstress Zasele's sewing and knitting tasks on Andreshlew, turned in for woven sacks.
+The Hollow Eve task loop with Seamstress Zasele on Andreshlew, one loop: drop the outfitting tools at Catrox for repair, dolphin to the island, find Zasele and hand over the pieces until she gives the woven sack, go to the dock and one room west to the barrel (coins out, gems into the hunt pouch, a kept material deeded into the duffel bag, the rest into the barrel), find Zasele again and ask for the next task, back to the mainland, tickets back from Catrox, bank, buy the burlap, rat-pelt leather or yarn, lighthouse, make the pieces, and again.
+
+A full gem pouch is swapped for a spare and handed to Jang at the Crossing dock, who sells it. Which materials are kept, who holds each family and the deed words are in the Data Editor's Zasele keep list. Stop it with `.gka`.
+
+`.zasele repair` only drops the outfitting tools at Catrox; the loop collects the tickets.
 
 ## How to start it
 

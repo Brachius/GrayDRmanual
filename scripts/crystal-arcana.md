@@ -2,7 +2,7 @@
 
 Script name: `crystal-arcana`
 
-Gazes into the worn sanowret crystal once, for Arcana.
+Gazes into the worn sanowret crystal once, for Arcana. A Master Train before-step or after-step more than a script to run by hand.
 
 ## How to start it
 

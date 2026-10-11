@@ -2,7 +2,14 @@
 
 Script name: `remedy`
 
-Native port of remedy.lic.
+Makes one remedy in the mortar or bowl, the same way Lich's remedy script did it hand for hand. It buys nothing: the work-order script keeps water, alcohol and the coal nugget stocked, so run it from Work Orders unless you have everything already.
+
+```
+.remedy remedies 1 "blister cream" aloe na "coal nugget" mortar cream
+.remedy continue na "coal nugget" mortar cream
+```
+
+In order: the word `remedies`, the chapter, the recipe in quotes, the first herb, the second herb or `na` when the recipe has none, the catalyst, the container (mortar, or a bowl; a cauldron answers for a bowl), and the noun of the finished item. `continue` carries on with a remedy already started. The finished item ends in your left hand.
 
 ## How to start it
 

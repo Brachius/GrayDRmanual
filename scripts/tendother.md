@@ -2,7 +2,7 @@
 
 Script name: `tendother`
 
-Binds another character's wounds and keeps the bandages up for their run: `.tendother Name`.
+Binds another character's wounds and keeps the bandages fresh for as long as they stay: `.tendother Jang`. First Aid with a **Bleeding partner** set runs this for ten seconds at a time.
 
 ## How to start it
 

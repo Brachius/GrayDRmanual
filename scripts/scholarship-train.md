@@ -2,7 +2,7 @@
 
 Script name: `scholarship-train`
 
-Studies a tailoring book page by page, a Tome of Lore first, with a song playing alongside until Performance is mind locked.
+Studies your tailoring book page by page, a Tome of Lore first when the character has one, with a song playing alongside until Performance is mind locked. Stops when Scholarship is mind locked.
 
 ## How to start it
 

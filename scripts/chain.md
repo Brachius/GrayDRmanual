@@ -2,7 +2,13 @@
 
 Script name: `chain`
 
-Run scripts and game commands one after another, separated by a pipe.
+Runs steps one after another, separated by a pipe. A step whose first word is one of your scripts runs that script and waits for it to end; any other step is sent to the game and its roundtime waited out. A leading count like `3x` repeats the whole chain. Put `>` in front of a step to force it to the game when its first word is also a script name.
+
+```
+.chain sew hold sewing 4 "padded cloth hood" silk hood | sew seal hood
+.chain 3x spin silk fine | weave-cloth
+.chain >spin wheel | look
+```
 
 ## How to start it
 

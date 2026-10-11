@@ -2,7 +2,21 @@
 
 Script name: `workorders`
 
-Request, craft, bundle, and turn in crafting-society work orders, exactly like workorders.lic.
+Work orders from start to finish: asks the discipline's NPC for an order, buys the stock, makes each item with the discipline's own script, bundles the pieces into the logbook, turns it in, and can repair the tools afterwards.
+
+```
+.workorders tailoring
+.workorders armorsmithing
+.workorders remedies
+.workorders tailoring repair      repair the tools instead of crafting
+.workorders tailoring turnin      get an order and turn in items already on hand
+.workorders tailoring continue    resume the order the logbook is tracking
+.workorders resume                finish the piece a crafting record describes (Master Train does this at startup)
+```
+
+Disciplines: blacksmithing, armorsmithing, weaponsmithing, tailoring, shaping, carving, tinkering, remedies, artificing.
+
+Before the first item it makes sure the money is there (**Platinum kept on hand for stock**, from the bank when short), and for remedies it counts the coal nugget's volumes and buys a gigantic one when short. Orders are accepted only between **Minimum** and **Maximum order size**, at the difficulty set per discipline. The recipes a discipline may take can be limited under **Accepted recipes per discipline**; a logbook continue is matched against that list too.
 
 ## How to start it
 

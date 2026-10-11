@@ -2,7 +2,7 @@
 
 Script name: `moon-perc`
 
-One Attunement pass over the Moon Mage perceive targets; skipped when Attunement is mind locked.
+One round of the Moon Mage perceives for Attunement: mana, moons, planets, psychic, transduction, perception and moonlight. Does nothing when Attunement is already mind locked, so it is safe as a step between other activities.
 
 ## How to start it
 

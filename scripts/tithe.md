@@ -2,7 +2,7 @@
 
 Script name: `tithe`
 
-Puts the tithe in the almsbox, as set on the Theurgy page. Theurgy training calls it by itself; run it alone to tithe now.
+Puts the tithe in the almsbox named under **Tithe almsbox** on the Theurgy page. Theurgy training tithes by itself when **Perform tithe** is on; run this to tithe now.
 
 ## How to start it
 

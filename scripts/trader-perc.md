@@ -2,7 +2,7 @@
 
 Script name: `trader-perc`
 
-One Attunement pass over the Trader perceive targets (mana, planets, illusion). Does nothing when Attunement is already mind locked.
+One round of the Trader perceives for Attunement: mana, planets and illusion. Does nothing when Attunement is already mind locked.
 
 ## How to start it
 

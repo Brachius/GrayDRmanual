@@ -2,7 +2,7 @@
 
 Script name: `trading-train`
 
-Sells the profit pouches and runs Mags's nuloe-stem task loop. Services the Trader kiosk first when one is configured.
+Trader training: services the Trader kiosk first when one is set up (the crystalline pouches it taps sell with the rest), sells the profit pouches, then runs Mags's nuloe-stem task loop until the skill is done. Settings are on the Trading Training page, the kiosk under Trader kiosk.
 
 ## How to start it
 

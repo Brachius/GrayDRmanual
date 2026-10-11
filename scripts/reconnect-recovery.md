@@ -2,7 +2,7 @@
 
 Script name: `reconnect-recovery`
 
-Put a reconnected character back in order before Master Train resumes.
+The clean-up GrayDR runs by itself after it reconnects a character that was dropped mid-script, before Master Train resumes. In order: stand, stow whatever is at your feet until nothing is left, unload a held bow or crossbow, put held gear back where it lives and stow anything else in the hands, and put the standard gear set back on. Hands that cannot be emptied stop it with a message naming what is in them: a half-made piece in hand is your call, not the script's. In combat it only clears the hands and lets the hunt take over. With a crafting piece on record it only stands, so Work Orders can finish the piece first.
 
 ## How to start it
 

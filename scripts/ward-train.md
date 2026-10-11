@@ -2,7 +2,7 @@
 
 Script name: `ward-train`
 
-Train Warding magic using the script-owned spell configuration.
+Trains Warding the same way Utility training works, with the Warding entry under **Training spells** on the Magic page. A ward that will not take because another ward is up is a stop; put that ward under **Release before training**.
 
 ## How to start it
 

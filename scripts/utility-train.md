@@ -2,7 +2,7 @@
 
 Script name: `utility-train`
 
-Train Utility magic using the script-owned spell configuration.
+Trains Utility magic with the spell set under **Training spells**, Utility, on the Magic page: it walks to the training room, casts the spell again and again at the mana the trainer has settled on, charging and invoking the cambrinth when one is configured, and stops at mind lock. The spells listed under **Release before training** are released first; the set named under **Release buff set after** is released when it finishes. `.master-train automana` finds the right mana for each trainer's spell.
 
 ## How to start it
 
