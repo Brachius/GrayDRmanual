@@ -54,7 +54,13 @@ Change or add any link by hand. Pick the **From room** and **To room** by number
 
 ### Walks
 
-Rows recorded while you walked with `.automap` on. Each row is one move: the room you left, the commands you sent between the two rooms, the room you arrived in with its name and exits, and whether the game answered darkness on the way. **Add to map** puts the move on the map as a link, adds the room if it is new, and marks it dark when the walk showed darkness. **Drop** forgets the row. Trim the command box first if the row caught a stray command from a running script.
+Rows recorded while you walked with `.automap` on. Each row is one move: the room you left, every command you sent between the two rooms, the room you arrived in with its name and exits, and how many times the game answered darkness on the way.
+
+The box **The room arrived in is dark (needs a light)** is ticked for you when the walk had a darkness answer and the last command was not a move, which is what a dark room looks like when you walk in, light up, and the room appears. Tick or untick it yourself if the recorder got it wrong.
+
+**Link command** starts out holding every command from the row, joined by semicolons. Before you add the row, cut it down to the move alone: the light, look and snuff commands you typed are in there too, and whatever is in the box becomes the link. A row that caught a stray command from a running script is trimmed the same way.
+
+**Add to map** puts the move on the map as a link, adds the room if it is new, and marks it dark when the box is ticked. **Drop** forgets the row.
 
 ### Crossings
 
@@ -73,10 +79,11 @@ Saves everything, then rebuilds the travel map and puts it into every GrayDR pac
 
 ## Mapping a new area
 
-1. Carry a light. Type `.automap` in the game window.
-2. Walk the area by hand, every exit you want on the map. Go through dark rooms with the light lit; the recorder counts the darkness answers and marks the room dark.
-3. Type `.automap stop`.
-4. Close GrayDR. Open the Data Editor, Map tab, **Walks**. Add each row to the map; drop the ones you do not want.
-5. If a move needs a skill, open **Links**, pick the link, fill in **Requires**, and change it.
-6. If a move is a ferry, a searched entrance, a gate or a slow passage, make it a crossing under **Crossings**.
-7. Press **Apply**. Read map-report.txt. Start GrayDR.
+1. Carry a light, but keep it out. Type `.automap` in the game window.
+2. Walk the area by hand, one exit at a time, every exit you want on the map.
+3. When a move answers with darkness, you are in a dark room: light your light so the room appears (that is what records it, exits and all, with the dark mark), then put the light out before you move on. Never walk with the light lit, or dark rooms go on the map as ordinary ones.
+4. Type `.automap stop`.
+5. Close GrayDR. Open the Data Editor, Map tab, **Walks**. For each row, cut the link command down to the move itself, check the dark box, and add it; drop the rows you do not want.
+6. If a move needs a skill, open **Links**, pick the link, fill in **Requires**, and change it.
+7. If a move is a ferry, a searched entrance, a gate or a slow passage, make it a crossing under **Crossings**.
+8. Press **Apply**. Read map-report.txt. Start GrayDR.
