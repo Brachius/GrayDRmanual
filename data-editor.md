@@ -56,9 +56,9 @@ Change or add any link by hand. Pick the **From room** and **To room** by number
 
 Rows recorded while you walked with `.automap` on. Each row is one move: the room you left, every command you sent between the two rooms, the room you arrived in with its name and exits, and how many times the game answered darkness on the way.
 
-The box **The room arrived in is dark (needs a light)** is ticked for you when the game answered darkness and the last thing typed before the room appeared was not a move, which is what a dark room looks like: you walk in, light up, type LOOK, and the room shows. Tick or untick it yourself if the recorder got it wrong.
+The box **The room arrived in is dark (needs a light)** is ticked for you when the game answered darkness and the last thing typed before the room appeared was not a move, which is what a dark room looks like: you walk in, light up, type `l`, and the room shows. Tick or untick it yourself if the recorder got it wrong.
 
-**Link command** is the command that will be on the map for this move. It starts out holding everything you typed between the two rooms, joined by semicolons, for example `north; rub my orb; look`. Before you add the row, delete everything but the move, so it reads `north`. The command to put the light out shows up at the start of the next row the same way. A stray command from a running script is deleted the same way.
+**Link command** is the command that will be on the map for this move. It starts out holding everything you typed between the two rooms, joined by semicolons, for example `north; rub my orb; l`. Before you add the row, delete everything but the move, so it reads `north`. The command to put the light out shows up at the start of the next row the same way. A stray command from a running script is deleted the same way.
 
 **Add to map** puts the move on the map as a link, adds the room if it is new, and marks it dark when the box is ticked. **Drop** forgets the row.
 
@@ -81,7 +81,7 @@ Saves everything, then rebuilds the travel map and puts it into every GrayDR pac
 
 1. Have a way to make light, but keep it off. Type `.automap` in the game window.
 2. Walk the area by hand, one exit at a time, every exit you want on the map.
-3. When a move answers with darkness, you are in a dark room: light up (lantern, gaethzen orb, spell, whatever you use), type `look`, and the room shows and is recorded with its number, exits and the dark mark. Put the light out, then take the next exit. Never walk around lit, or dark rooms go on the map as ordinary ones.
+3. When a move answers with darkness, you are in a dark room: light up (lantern, gaethzen orb, spell, whatever you use), type `l` (or `look`), and the room shows and is recorded with its number, exits and the dark mark. Put the light out, then take the next exit. Never walk around lit, or dark rooms go on the map as ordinary ones.
 4. Type `.automap stop`.
 5. Close GrayDR. Open the Data Editor, Map tab, **Walks**. For each row, delete everything but the move from the link command, check the dark box, and add it; drop the rows you do not want.
 6. If a move needs a skill, open **Links**, pick the link, fill in **Requires**, and change it.
