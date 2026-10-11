@@ -12,7 +12,7 @@ Records the moves you make by hand so the Data Editor can put them on the travel
 
 When a move answers with darkness, you are in a dark room. Light up however you do it (a lantern, a gaethzen orb, a spell), then type `look` (or just `l`). The look is what shows the room, and that is the moment the recorder writes it down: its number, its name, its exits, and a mark that it is a dark room. Put the light out, then take the next exit. Do not walk around lit: a lit room never answers with darkness, so the recorder would write it down as an ordinary room.
 
-Each move becomes one row on the Data Editor's Map tab, under Walks. A row holds every command you typed between the two rooms, so for a dark room it holds the move, the light command and the look. See [Data Editor, Walks](/data-editor.md#walks).
+Each move becomes one row on the Data Editor's Map tab, under Walks, where **Add all** puts the whole walk on the map in one go; the editor keeps the move and drops the light and look commands by itself. See [Data Editor, Walks](/data-editor.md#walks).
 
 ## How to start it
 

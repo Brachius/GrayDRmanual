@@ -58,9 +58,9 @@ Rows recorded while you walked with `.automap` on. Each row is one move: the roo
 
 The box **The room arrived in is dark (needs a light)** is ticked for you when the game answered darkness and the last thing typed before the room appeared was not a move, which is what a dark room looks like: you walk in, light up, type `l`, and the room shows. Tick or untick it yourself if the recorder got it wrong.
 
-**Link command** is the command that will be on the map for this move. It starts out holding everything you typed between the two rooms, joined by semicolons, for example `north; rub my orb; l`. Before you add the row, delete everything but the move, so it reads `north`. The command to put the light out shows up at the start of the next row the same way. A stray command from a running script is deleted the same way.
+**Add all** puts every row on the map in one go: the way in as the link, the room when the map lacks it, and the dark mark. The editor works out the way in by itself: it keeps the move (`north`, `go hole`, `search; go hidden entrance`) and drops the light going on, the look, and the light going off at the start of the next row. A row it is not sure about, say one with a spell cast in the middle of it, stays in the list and the message tells you how many.
 
-**Add to map** puts the move on the map as a link, adds the room if it is new, and marks it dark when the box is ticked. **Drop** forgets the row.
+For a row left behind: **Link command** holds everything typed between the two rooms, joined by semicolons. Delete what is not the move, tick or untick the dark box, and press **Add to map**. **Drop** forgets a row you do not want.
 
 ### Crossings
 
@@ -83,7 +83,7 @@ Saves everything, then rebuilds the travel map and puts it into every GrayDR pac
 2. Walk the area by hand, one exit at a time, every exit you want on the map.
 3. When a move answers with darkness, you are in a dark room: light up (lantern, gaethzen orb, spell, whatever you use), type `l` (or `look`), and the room shows and is recorded with its number, exits and the dark mark. Put the light out, then take the next exit. Never walk around lit, or dark rooms go on the map as ordinary ones.
 4. Type `.automap stop`.
-5. Close GrayDR. Open the Data Editor, Map tab, **Walks**. For each row, delete everything but the move from the link command, check the dark box, and add it; drop the rows you do not want.
+5. Close GrayDR. Open the Data Editor, Map tab, **Walks**, and press **Add all**. Look at any rows it left behind: trim and add them, or drop them.
 6. If a move needs a skill, open **Links**, pick the link, fill in **Requires**, and change it.
 7. If a move is a ferry, a searched entrance, a gate or a slow passage, make it a crossing under **Crossings**.
 8. Press **Apply**. Read map-report.txt. Start GrayDR.
