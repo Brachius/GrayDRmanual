@@ -50,7 +50,7 @@ Every link that failed during a walk, grouped by link, with how many times it fa
 
 ### Links
 
-Change or add any link by hand. Pick the **From room** and **To room** by number or by a word from the name, type the **Link command**, and **Add link** or **Change this link**. The **Requires** row names a skill and rank the move needs, for example `Athletics 100`. **Dark room** marks the arrival room as one that needs a light to show its exits. A room the map does not have yet is added with the link.
+Change or add any link by hand. Pick the **From room** and **To room** by number or by a word from the name, type the **Link command**, and **Add link** or **Change this link**. The **Requires** row names what the move needs, in one of two shapes: `Athletics at least 100` (a skill and the rank), or `Citizenship is Zoluren` (a fact that must match). **Dark room** marks the arrival room as one that needs a light to show its exits. A room the map does not have yet is added with the link.
 
 ### Walks
 

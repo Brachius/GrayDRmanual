@@ -53,4 +53,4 @@ Right-click the story window for **Copy**, **Appearance**, and **Unstuck**. Unst
 
 ## The map picture
 
-Type `.map` to open the community map picture for the area you are in. You are drawn on it when the map knows your room. `.map` followed by a word searches by name.
+Type `.map` to open the community map picture for the area you are in. You are drawn on it when the map knows your room, and clicking a room on the picture walks you there.

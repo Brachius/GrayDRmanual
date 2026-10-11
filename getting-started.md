@@ -11,6 +11,8 @@ GrayDR is delivered as a dated package folder. Beside the packages sits one set 
 | Launch Data Editor | The editor for spells, hunting zones, command answers, crafting tools and the travel map. |
 | Launch Account Board | The window that watches every logged-in character. |
 
+The other launchers beside these (Engine Host, EngineCtl, Engine Lab, Run Engine Lua All, Smoke Test) are development tools and are not needed to play.
+
 Your settings are not inside the package. They live in the **profiles** folder beside the packages, so a new package never loses them.
 
 ## Logging in

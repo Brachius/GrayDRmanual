@@ -8,7 +8,7 @@ Sew, knit, or enhance tailoring items exactly like sew.lic, including consumable
 
 Type `.sew` followed by the words it takes.
 
-hold|log|stow|trash + type/chapter/recipe/material/noun, or instructions form, seal/reinforce/lighten, or resume <noun>.
+hold|log|stow|trash + type/chapter/recipe/material/noun, or instructions form, seal/reinforce/lighten, or resume &lt;noun&gt;.
 
 Example:
 

@@ -8,7 +8,7 @@ Shape wood items exactly like shape.lic, including consumable restocking by chap
 
 Type `.shape` followed by the words it takes.
 
-hold|log|stow|trash + chapter/recipe/material/noun [skip], or instructions form, laminate/lighten/cable <noun>, or resume <noun>.
+hold|log|stow|trash + chapter/recipe/material/noun [skip], or instructions form, laminate/lighten/cable &lt;noun&gt;, or resume &lt;noun&gt;.
 
 Example:
 

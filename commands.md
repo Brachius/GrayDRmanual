@@ -27,7 +27,8 @@ Adding the word `cascade` after a script's name starts it on every logged-in cha
 |---|---|
 | `.list` | Lists the scripts running in this window. `.list all` includes the hidden helper scripts. |
 | `.k name`, `.kill name`, `.stop name` | Stops that one script at once. |
-| `.k` with no name | Stops the walk in progress and go2. |
+| `.k` with no name | Stops the walk in progress and go2; with no walk running, stops the script started most recently. |
+| `.k travel` | Stops the walk in progress only. |
 | `.ka`, `.killall`, `.stopall` | Stops every script and any walk at once. Scripts marked no-kill-all in `.list` survive. |
 | `.kd` | Like `.ka`, but stops the no-kill-all scripts too. |
 | `.gk name` | Graceful stop: the script finishes what it is in the middle of, puts things back, and ends. |
@@ -60,7 +61,7 @@ Master Train runs your whole training routine, card by card, as set up on the St
 
 | Type | What happens |
 |---|---|
-| `.map` | Opens the map picture for your area. `.map word` searches it by name. |
+| `.map` | Opens the map picture for your area. A word after it is ignored for now. |
 | `.automap` | Starts recording your hand walk for the Data Editor's Map tab. `.automap stop` ends it, `.automap status` says what is recorded so far. See [Data Editor](data-editor.md#walks). |
 | `.logger` | Says which logs are on. `.logger normal on`, `.logger error off`, `.logger debug on` switch them. `.logger open` opens the log folder. `.logger path` shows it; `.logger path C:\somewhere` moves it. |
 | `.chat connect`, `.chat disconnect` | Joins or leaves the LNet chat network. Chat appears in the Thoughts window. |
