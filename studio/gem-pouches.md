@@ -17,7 +17,7 @@ Scripts that read these settings: [Combat Trainer](/scripts/combat-trainer.md).
 | <span id="setting-activities-pouch-source"></span>**Appraisal pouch source** | Container holding unappraised training pouches. | (blank) | Each character |
 | <span id="setting-activities-pouch-processed"></span>**Appraisal pouch staging** | Temporary container that prevents appraising the same pouch twice. | (blank) | Each character |
 | <span id="setting-spare-gem-pouch-container"></span>**Spare gem pouch container** | Container for spare gem pouches. | (not set) | Global, or each character |
-| <span id="setting-tie-gem-pouches"></span>**Tie gem pouches** | Controls tie gem pouches behavior in Combat Trainer. Yes or No. | (not set) | Global, or each character |
+| <span id="setting-tie-gem-pouches"></span>**Tie gem pouches** | Yes: tie the gem pouch when it is full. Yes or No. | (not set) | Global, or each character |
 | <span id="setting-activities-spare-pouch-container"></span>**Spare gem-pouch container** | Container stocked with replacement hunting pouches. | (blank) | Each character |
 | <span id="setting-activities-spare-pouch-target"></span>**Spare gem-pouch target** | Number of spare hunting pouches to keep. A number, at least 0, at most 50. | 5 | Each character |
 | <span id="setting-activities-pick-box-pouch-adjective"></span>**Box-picking gem pouch adjective** | Adjective of the financed-gemshop pouch dedicated to loot from opened boxes. Pick treats its noun as the fixed word pouch. | (blank) | Each character |
