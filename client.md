@@ -55,11 +55,13 @@ Right-click the story window for **Copy**, **Appearance**, and **Unstuck**. Unst
 
 Type `.map` to open the map for the area you are in. It opens beside the game and follows you as you walk. You are ringed on it, and clicking any room walks you there. You do not have to hit the tiny square: a click near a room counts, and the pointing hand shows whenever you are close enough.
 
+**Exit tabs.** Small tabs sit on your ring, one per exit the game lists for your room: N, SW, GO GATE and so on. Click one and GrayDR sends that single move, exactly as if you typed it. They work however wrong the picture is.
+
 **Dragging.** Drag the map to slide it. It stays where you leave it; only moving to a new room centres it on you again. **Where I am** brings it back to your room.
 
 **Typing.** Keys typed with the map in front go to the game, so `n` and Enter walk you without clicking back on the game window.
 
-**The next map.** The **Next:** row under the buttons has one button per map that joins the one on show. Press one to see that map, whole, then click a room on it to walk there. The same maps also appear as small yellow boxes beside the rooms whose exits lead onto them, where the data knows the spot; hover one for the map's name. The window comes back to your own map, at full size, when you arrive, or when you press Where I am.
+**The next map.** The **Next:** row under the buttons has one button per map that joins the one on show. Press one to see that map, whole, then click a room on it to walk there. The small yellow boxes beside rooms whose exits lead onto another map do the walking for you: click one and go2 takes you onto that map, and the window follows when you arrive. Hover one for the map's name. The window comes back to your own map, at full size, when you arrive, or when you press Where I am.
 
 **Dashed squares.** A dashed square near your room is a place the artist drew but the community data never recorded: a cottage yard behind "go gate", a stable, a shop. Only the ones one move from where you stand are shown, so the picture stays clean, and they follow you as you walk. The square starts on the side the exit points, which usually lands on the artist's block. Clicking it walks you there like any other square. If it missed the block, drag it onto the block and GrayDR remembers the spot for every character from then on (the file is `logs\map-room-boxes.json`). Standing in such a room keeps you on the same map, ringed on its dashed square.
 
