@@ -59,7 +59,9 @@ Type `.map` to open the map for the area you are in. It opens beside the game an
 
 **Typing.** Keys typed with the map in front go to the game, so `n` and Enter walk you without clicking back on the game window.
 
-**The next map.** Where a room has an exit onto another map, a small yellow arrow box sits beside it with the other map's name. Click it to see that map. Click a room on it to walk there. An arrow box marked **no picture** leads into ground no picture covers; clicking it opens the drawn map there. The window comes back to your own map when you arrive, or when you press Where I am.
+**The next map.** The **Next:** row under the buttons has one button per map that joins the one on show. Press one to see that map, then click a room on it to walk there. The same maps also appear as small yellow arrow boxes beside the rooms whose exits lead onto them, where the data knows the spot. The window comes back to your own map when you arrive, or when you press Where I am.
+
+**Dashed squares.** A dashed square beside a room is a place the artist drew but the community data never recorded: a cottage yard behind "go gate", a stable, a shop. It starts on the side the exit points. Clicking it walks you there like any other square. Drag it onto the block the artist drew and GrayDR remembers the spot for every character from then on (the file is `logs\map-room-boxes.json`).
 
 **Areas with no picture.** About a quarter of the game has no community picture. There the window draws its own map from the travel data: one square per room, lines for the exits, and the move written on the line when it is not a plain direction (`climb ladder`, `go gate`, `up`). Hover a square for its name. Rooms on the edge of the drawing that belong to a picture are outlined yellow with the picture's name beside them; click the name to open that picture. The **Drawn** button shows this drawn version even where a picture exists.
 
