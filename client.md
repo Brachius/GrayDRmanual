@@ -59,7 +59,7 @@ Type `.map` to open the map for the area you are in. It opens beside the game an
 
 **Typing.** Keys typed with the map in front go to the game, so `n` and Enter walk you without clicking back on the game window.
 
-**The next map.** Where a room has an exit onto another map, a small yellow arrow box sits beside it with the other map's name. Click it to see that map. Click a room on it to walk there. The window comes back to your own map when you arrive, or when you press Where I am.
+**The next map.** Where a room has an exit onto another map, a small yellow arrow box sits beside it with the other map's name. Click it to see that map. Click a room on it to walk there. An arrow box marked **no picture** leads into ground no picture covers; clicking it opens the drawn map there. The window comes back to your own map when you arrive, or when you press Where I am.
 
 **Areas with no picture.** About a quarter of the game has no community picture. There the window draws its own map from the travel data: one square per room, lines for the exits, and the move written on the line when it is not a plain direction (`climb ladder`, `go gate`, `up`). Hover a square for its name. Rooms on the edge of the drawing that belong to a picture are outlined yellow with the picture's name beside them; click the name to open that picture. The **Drawn** button shows this drawn version even where a picture exists.
 
