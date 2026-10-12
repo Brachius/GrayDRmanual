@@ -61,7 +61,7 @@ Master Train runs your whole training routine, card by card, as set up on the St
 
 | Type | What happens |
 |---|---|
-| `.map` | Opens the map picture for your area. A word after it is ignored for now. |
+| `.map` | Opens the map window for your area (see [The map window](/client.md#the-map-window)). A word after it is ignored for now. |
 | `.automap` | Starts recording your hand walk for the Data Editor's Map tab. `.automap stop` ends it, `.automap status` says what is recorded so far. See [Data Editor](/data-editor.md#walks). |
 | `.logger` | Says which logs are on. `.logger normal on`, `.logger error off`, `.logger debug on` switch them. `.logger open` opens the log folder. `.logger path` shows it; `.logger path C:\somewhere` moves it. |
 | `.chat connect`, `.chat disconnect` | Joins or leaves the LNet chat network. Chat appears in the Thoughts window. |
