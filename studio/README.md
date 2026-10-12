@@ -18,7 +18,7 @@ Two pages are built differently and have their own chapters: [Gear](/studio.md#t
 | [Memory Orbs](/studio/memory-orbs.md) | Where the memory orbs are kept and what to do with them. | 4 |
 | [Buffs](/studio/buffs.md) | The Barbarian abilities activated for training, and the Buffs pre-hunt choices. | 13 |
 | [Trading Training](/studio/trading-train.md) | The Trader's profit pouches, Mags's task loop, and the Trader kiosk. | 26 |
-| [Healing](/studio/healing.md) | Healing routes and the Empath's plant, First Aid charts, Healme, Medic Check, Rezz and the safe room. | 54 |
+| [Healing](/studio/healing.md) | Healing routes and the Empath's plant, First Aid charts, Healme, Medic Check, Rezz and the safe room. | 53 |
 | [Crafting](/studio/crafting.md) | Settings every crafting script shares (the crafting bag, the town, stamping, the magic floor), then the belts, outfitting, forging, shaping, engineering and work order settings. | 71 |
 | [Loot](/studio/loot.md) | Selling: the town, the bank and currency exchange, metals and stones, trap components, the bank bot, and how much platinum to keep. | 26 |
 | [F2P Banking](/studio/f2p-banking.md) | A banker character who holds the vault for free-to-play characters that cannot bank themselves. | 5 |

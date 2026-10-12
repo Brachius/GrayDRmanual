@@ -18,8 +18,7 @@ On the Configuration Studio page [Healing](/studio/healing.md):
 |---|---|---|---|
 | <span id="setting-activities-medic-check"></span>**Empath medic routine** |  |  | Global, or each character |
 | <span id="setting-activities-medic-check-guild"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Guild** _(required)_ |  | Empath | Global, or each character |
-| <span id="setting-activities-medic-check-room"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Empath plant room** _(required)_ | Room where the vela'tohr plant is kept. Patients come here and the plant is tended here. A number, at least 1. | (not set) | Global, or each character |
-| <span id="setting-activities-medic-check-healing-room"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Healing room** _(required)_ | A number, at least 1. | (not set) | Global, or each character |
+| <span id="setting-activities-medic-check-healing-room"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Healing room** _(required)_ | Where patients are healed and the Empath recovers. The plant room is the Healing page's Empath plant room (one field for Medic Check, Medic Plant and hospital healing; Josh 2026-10-11). A number, at least 1. | (not set) | Global, or each character |
 | <span id="setting-activities-medic-check-patients"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Patients in priority order** _(required)_ | A list. | (not set) | Global, or each character |
 | <span id="setting-activities-medic-check-healing-waggle-set"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Healing spell set** _(required)_ |  | medic_check | Global, or each character |
 | <span id="setting-activities-medic-check-recovery-waggle-set"></span>&nbsp;&nbsp;&nbsp;&nbsp;↳ **Recovery spell set** _(required)_ |  | medic_recovery | Global, or each character |
