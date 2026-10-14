@@ -14,7 +14,7 @@ Two pages are built differently and have their own chapters: [Gear](/studio.md#t
 | [Handoff](/studio/handoff.md) | The gem-pouch and item exchange between a giver and the receiver, Jang: how many full pouches and boxes trigger it, the F2P platinum rules, and who takes part. | 5 |
 | [Gear Sets](/studio/gear-sets.md) | Named sets of worn items, such as the set called standard, that scripts put back on after they strip gear. | 1 |
 | [Combat](/studio/combat.md) | Every Combat Trainer and Hunt setting: weapons and the skills they train, armor rotation, combat spells, abilities, retreat and stop rules, hunting zones and buddies, loot. | 188 |
-| [Magic](/studio/magic.md) | Everything spellcasting scripts share: cambrinth, harnessing, the ritual focus, the training spell for each magic skill, the buff list, and the Astrology trainer's settings. | 45 |
+| [Magic](/studio/magic.md) | Everything spellcasting scripts share: cambrinth, harnessing, the ritual focus, the training spell for each magic skill, the buff list, and the Astrology trainer's settings. | 46 |
 | [Memory Orbs](/studio/memory-orbs.md) | Where the memory orbs are kept and what to do with them. | 4 |
 | [Buffs](/studio/buffs.md) | The Barbarian abilities activated for training, and the Buffs pre-hunt choices. | 13 |
 | [Trading Training](/studio/trading-train.md) | The Trader's profit pouches, Mags's task loop, and the Trader kiosk. | 26 |
