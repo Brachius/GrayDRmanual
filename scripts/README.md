@@ -202,3 +202,9 @@ Every script, grouped the way the Configuration Studio groups their settings. St
 | [automap](/scripts/automap.md) | `.automap` | Records the moves you make by hand so the Data Editor can put them on the travel map, dark rooms included. |
 | [go2](/scripts/go2.md) | `.go2` | Walks you to a room. |
 
+## Other scripts
+
+| Script | Start with | What it does |
+|---|---|---|
+| [rpabestow](/scripts/rpabestow.md) | `.rpabestow` | No description yet. |
+

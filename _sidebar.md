@@ -151,3 +151,5 @@
   - Travel
     - [automap](/scripts/automap.md)
     - [go2](/scripts/go2.md)
+  - Other scripts
+    - [rpabestow](/scripts/rpabestow.md)
