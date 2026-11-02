@@ -207,4 +207,5 @@ Every script, grouped the way the Configuration Studio groups their settings. St
 | Script | Start with | What it does |
 |---|---|---|
 | [rpabestow](/scripts/rpabestow.md) | `.rpabestow` | No description yet. |
+| [zasele2](/scripts/zasele2.md) | `.zasele2` | No description yet. |
 

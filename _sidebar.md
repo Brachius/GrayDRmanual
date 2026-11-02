@@ -153,3 +153,4 @@
     - [go2](/scripts/go2.md)
   - Other scripts
     - [rpabestow](/scripts/rpabestow.md)
+    - [zasele2](/scripts/zasele2.md)
