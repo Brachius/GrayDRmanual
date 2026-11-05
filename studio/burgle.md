@@ -6,7 +6,7 @@ Burgling homes: the starting room, how to get in, what to search, what to keep, 
 
 | Setting | What it does | Default | Applies to |
 |---|---|---|---|
-| <span id="setting-activities-burgle-room"></span>**Burgle starting room** | Native GrayDR room number where BURGLE is started. A number, at least 0, at most 999999999. | 0 | Each character |
+| <span id="setting-activities-burgle-room"></span>**Burgle rooms** | Rooms where BURGLE can be started. List one or more; burgle goes to whichever is closest. A number, at least 0, at most 999999999. | 0 | Each character |
 | <span id="setting-activities-burgle-entry"></span>**Burgle entry method** | lockpick, rope, cycle, prioritylockpick, or priorityrope. | prioritylockpick | Each character |
 | <span id="setting-activities-burgle-use-lockpick-ring"></span>**Use lockpick ring for Burgle** | Use the configured worn lockpick ring for lockpick entry. Turn off to retrieve a loose lockpick instead. Yes or No. | Yes | Each character |
 | <span id="setting-activities-burgle-rope-adjective"></span>**Burgle rope adjective** | Adjective used for rope entry. | heavy | Each character |
@@ -21,7 +21,7 @@ Burgling homes: the starting room, how to get in, what to search, what to keep, 
 | <span id="setting-activities-burgle-item-whitelist"></span>**Burgle keep list** | Semicolon-separated loot descriptions always kept. | (blank) | Each character |
 | <span id="setting-activities-burgle-prioritize-rooms"></span>**Burgle priority rooms** | Semicolon-separated, case-sensitive room names to search first. | (blank) | Each character |
 | <span id="setting-activities-burgle-room-priority-type"></span>**Burgle room priority order** | any uses discovery order; inorder uses the configured order. | any | Each character |
-| <span id="setting-activities-burgle-pawn-room"></span>**Burgle pawnshop room override** | Optional native GrayDR destination used when Burgle loot action is pawn. Leave blank or 0 to use the pawnshop from the current service area. A number, at least 0, at most 999999999. | 0 | Each character |
+| <span id="setting-activities-burgle-pawn-room"></span>**Burgle pawnshop room override** | Optional native GrayDR destination used when Burgle loot action is pawn. Leave blank or 0 to use the closest pawnshop. A number, at least 0, at most 999999999. | 0 | Each character |
 | <span id="setting-activities-burgle-bin-room"></span>**Burgle thief-bin room override** | Optional native GrayDR destination used when Burgle loot action is bin. Leave blank or 0 to use the current service area's thief bin; only a live Thief can use it. A number, at least 0, at most 999999999. | 0 | Each character |
 | <span id="setting-activities-burgle-worn-trashcan"></span>**Burgle worn trashcan** | Worn trash container used by the trashcan loot action. | (blank) | Each character |
 | <span id="setting-activities-burgle-worn-trashcan-verb"></span>**Burgle trashcan activation verb** | Required for trashcan loot; applied twice after placing loot in the worn trashcan. | (blank) | Each character |

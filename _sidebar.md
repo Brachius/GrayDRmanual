@@ -152,5 +152,7 @@
     - [automap](/scripts/automap.md)
     - [go2](/scripts/go2.md)
   - Other scripts
+    - [gkaz](/scripts/gkaz.md)
     - [rpabestow](/scripts/rpabestow.md)
+    - [treasures](/scripts/treasures.md)
     - [zasele2](/scripts/zasele2.md)
